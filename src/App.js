@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import Home from "./component/pages/Home";
+import Home from "./component/pages/Home/Home";
 import PrivateRoute from "./component/PrivateRoute";
 import TimeTable from "./component/pages/TimeTable/TimeTable";
-import CSS from "./index.css"
+import CSS from './index.css'
 export default function App() {
   return (
     <Router >
@@ -13,3 +13,7 @@ export default function App() {
     </Router>
   );
 }
+// // const DayText =(props)=>{
+// //   const {dayText,dayState} = props;
+// //   return(<h2>{dayText}</h2>)
+// }
