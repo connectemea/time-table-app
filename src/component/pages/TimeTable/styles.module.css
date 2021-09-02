@@ -2,6 +2,8 @@
 .contentWrapper {
   width: 100vw;
   height: 100vh;
+  padding: 30px;
+
 }
 
 /* header section styles */
@@ -9,6 +11,34 @@
   background: black;
   height: 100vh;
 }
-.headerTitle {
+.header {
   color: red;
+  /* background: red; */
+  width: 100%;
+  height: 18%;
+  display: flex;
 }
+.logo img {
+  height: 104px;
+  width: 113px;
+  left: 68px;
+  top: 45px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+/* .heading {
+  font-family: Segoe UI;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+} */

@@ -5,9 +5,10 @@ export default function TimeTable (){
     
     return(
         <>
-        <Header/>
+        
         <div className={styles.contentWrapper}>
-            Time Table page 
+            {/* Time Table page  */}
+            <Header/>
         </div>
         </>
     )
