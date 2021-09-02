@@ -18,14 +18,13 @@
   height: 18%;
   display: flex;
 }
+.logo {
+    display: flex;
+    align-items: center;  
+}
 .logo img {
   height: 104px;
   width: 113px;
-  left: 68px;
-  top: 45px;
-  border-radius: 0px;
-  display: flex;
-  align-items: center;
 }
 .title{
   display: flex;
