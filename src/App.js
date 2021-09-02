@@ -5,10 +5,10 @@ import PrivateRoute from "./component/PrivateRoute";
 import TimeTable from "./component/pages/TimeTable/TimeTable";
 export default function App() {
   return (
-    <Router >
+    <Router>
       <Switch>
-        <PrivateRoute exact path="/home" component={Home} />
-        <PrivateRoute exact path="/timetable" component={TimeTable} />
+        <PrivateRoute exact path="/" component={Home} />
+        <PrivateRoute exact path="/timetable" component={TimeTable} />        
       </Switch>
     </Router>
   );

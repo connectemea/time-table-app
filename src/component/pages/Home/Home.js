@@ -1,10 +1,14 @@
-import Button from '@material-ui/core/Button';
-import Style from './home.module.css'
-export default function Home() {
+import React from "react";
+import styles from "./styles.module.css";
+const Home = () => {
   return (
-    <div className={Style.test}>
-        <div className={Style.header}></div>
-              
+    <div className={styles.contentWrapper}>
+      <div className={styles.titleSection}>
+        <div className={styles.mainTitle}>TIME TABLE</div>
+        <div className={styles.subTitle}>EMEA COLLEGE KONDOTTY</div>
+      </div>
     </div>
   );
-}
+};
+
+export default Home;
