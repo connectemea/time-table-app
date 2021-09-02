@@ -3,7 +3,7 @@ import './index.css'
 import Home from "./component/pages/Home/Home";
 import PrivateRoute from "./component/PrivateRoute";
 import TimeTable from "./component/pages/TimeTable/TimeTable";
-import CSS from './index.css'
+import './index.css';
 export default function App() {
   return (
     <Router>
