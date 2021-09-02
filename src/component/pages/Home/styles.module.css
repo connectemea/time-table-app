@@ -1,0 +1,23 @@
+/* entire content wrapper */
+.contentWrapper {
+  background: #333;
+  height: 100vh;
+}
+/* Title section  */
+.titleSection {
+  padding-top: 50px;
+  text-align: center;
+}
+.mainTitle {
+  color: lemonchiffon;
+  font-size: xx-large;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-size: 13px;
+  font-family: -webkit-body;
+  color: lemonchiffon;
+}
