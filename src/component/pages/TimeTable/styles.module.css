@@ -1,4 +1,14 @@
-.contentWrapper{
-    width:100vw;
-    height:100vh;
+/* common css file */
+.contentWrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* header section styles */
+.timeTable {
+  background: black;
+  height: 100vh;
+}
+.headerTitle {
+  color: red;
 }
