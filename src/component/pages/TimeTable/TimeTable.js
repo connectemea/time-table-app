@@ -6,7 +6,6 @@ export default function TimeTable (){
         <>
         
         <div className={styles.contentWrapper}>
-            {/* Time Table page  */}
             <Header/>
         </div>
         </>
