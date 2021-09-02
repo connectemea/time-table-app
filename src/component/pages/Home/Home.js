@@ -1,11 +1,11 @@
 import React from "react";
-import Style from "./Home.module.css";
+import styles from "./styles.module.css";
 const Home = () => {
   return (
-    <div className={Style.home}>
-      <div className={Style.a}>
-        <div className={Style.btn}>TIME TABLE</div>
-        <div className={Style.time}>EMEA COLLEGE KONDOTTY</div>
+    <div className={styles.contentWrapper}>
+      <div className={styles.titleSection}>
+        <div className={styles.mainTitle}>TIME TABLE</div>
+        <div className={styles.subTitle}>EMEA COLLEGE KONDOTTY</div>
       </div>
     </div>
   );
