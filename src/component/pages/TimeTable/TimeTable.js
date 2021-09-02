@@ -1,3 +1,4 @@
+import Header from './Header';
 import styles from './Style.module.css';
 export default function TimeTable (){
     return(
