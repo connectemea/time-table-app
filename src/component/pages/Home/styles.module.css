@@ -21,3 +21,28 @@
   font-family: -webkit-body;
   color: lemonchiffon;
 }
+.bottomTitle {
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  position: fixed;
+  bottom: 1px;
+  left: 47%;
+}
+.tinker{
+  font-size: 9px;
+  font-family:sans-serif;
+  color: antiquewhite;
+  position: fixed;
+  bottom: 5px;
+  left: 53.5%;
+  font-weight: 700;
+}
+.hub{
+  font-size: 9px;
+  font-family:sans-serif;
+  color: antiquewhite;
+  position: fixed;
+  bottom: 5px;
+  left: 55.7%;
+}
