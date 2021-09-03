@@ -6,6 +6,8 @@
   background-image: url(https://cdn.pixabay.com/photo/2016/12/08/19/53/fractals-1892996_960_720.jpg);
   background-size: cover;
   display: flex;
+  flex-wrap:wrap;
+  align-content:flex-start;
 }
 
 /* header section styles */
