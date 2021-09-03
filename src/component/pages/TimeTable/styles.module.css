@@ -3,9 +3,9 @@
   width: 100vw;
   height: 100vh;
   padding: 30px;
-  background-image: url(https://cdn.pixabay.com/photo/2016/12/08/19/53/fractals-1892996_960_720.jpg);
+  background-image: url(../images/LooperBG.png);
   background-size: cover;
-  display: flex;
+  /* display: flex; */
 }
 
 /* header section styles */
