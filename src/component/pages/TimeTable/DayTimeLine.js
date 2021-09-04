@@ -1,3 +1,13 @@
+import styles from './styles.module.css';
 export default function DayTimeLine() {
-  return <div>time line section</div>;
+  return(
+    <div className={styles.timeLineSection}>
+      <Circle/>
+      <Circle/>
+      <Circle/>
+      <Circle/>
+      <Circle/>
+    </div>
+  )
 }
+const Circle = ()=><div className={styles.circle}></div>;
