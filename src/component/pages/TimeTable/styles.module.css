@@ -3,14 +3,15 @@
   width: 100vw;
   height: 100vh;
   padding: 30px;
-  background-image:  url(../images/LooperBG.png),radial-gradient(54.25% 54.25% at 50% 47.9%, #1E3A3E 0%, #161B1F 100%);
-  background-position:center;
-  background-size:contain;
-  background-repeat:no-repeat;
-  background-color:black;
+  background-image: url(../images/LooperBG.png),
+    radial-gradient(54.25% 54.25% at 50% 47.9%, #1e3a3e 0%, #161b1f 100%);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
   display: flex;
-  flex-wrap:wrap;
-  align-content:flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 /* header section styles */
@@ -19,7 +20,7 @@
   height: 100vh;
 }
 .header {
-  color:white;
+  color: white;
   width: 100%;
   height: 18%;
   display: flex;
@@ -39,26 +40,24 @@
   justify-content: center;
   font-family: Segoe UI;
 }
-.heading{
-  font-size:4rem;
-  font-weight:700;
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
 }
-.date{
-  font-size:2rem;
-  font-weight:300;
-  color:#E3E3E3;
+.date {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #e3e3e3;
 }
 
-
-/* middle section style */
-
+/* day section style */
 .daysSection {
   width: 100%;
   height: 18%;
+  padding:0 10rem;
   align-items: center;
   display: flex;
-  justify-content: space-around;
-
+  justify-content: space-between;
 }
 .day {
   font-family: Segoe UI;
@@ -70,7 +69,34 @@
   text-align: left;
   color: white;
 }
-
 .today {
-  border-bottom:2px solid #329DAC;
+  border-bottom: 2px solid #329dac;
+}
+
+/* timeline section */
+.timeLineSection {
+  display: flex;
+  width: 100%;
+  padding: 20px 10rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+/* To create the line */
+.timeLineSection::before {
+  content: "";
+  width: calc(100% - 20rem);
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  background:  #C4C4C4;
+}
+.circle {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background:  #C4C4C4;
 }
