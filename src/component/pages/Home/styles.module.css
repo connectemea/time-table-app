@@ -39,3 +39,38 @@
   width:10rem;
   
 }
+.selectBox1 {
+  height: 4rem;
+  width: 25rem;
+  position: fixed;
+  left: 40%;
+  bottom: 57%;
+  border-radius: 15px;
+  border-color: grey;
+  border-width: 2px;
+  color: aliceblue;
+  background: transparent;
+}
+.selectBox2 {
+  height: 4rem;
+  width: 25rem;
+  position: fixed;
+  left: 40%;
+  bottom: 41%;
+  border-radius: 15px;
+  border-color: grey;
+  border-width: 2px;
+  color: aliceblue;
+  background: transparent;
+}
+.button {
+  color: white;
+  height: 2rem;
+  width: 13rem;
+  position: fixed;
+  left: 45%;
+  bottom: 30%;
+  border-radius: 30px;
+  border: none;
+  background:#2f7878;
+}
