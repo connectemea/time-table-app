@@ -3,8 +3,11 @@
   width: 100vw;
   height: 100vh;
   padding: 30px;
-  background-image: url(https://cdn.pixabay.com/photo/2016/12/08/19/53/fractals-1892996_960_720.jpg);
-  background-size: cover;
+  background-image:  url(../images/LooperBG.png),radial-gradient(54.25% 54.25% at 50% 47.9%, #1E3A3E 0%, #161B1F 100%);
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-color:black;
   display: flex;
   flex-wrap:wrap;
   align-content:flex-start;
@@ -16,8 +19,7 @@
   height: 100vh;
 }
 .header {
-  color: red;
-  /* background: red; */
+  color:white;
   width: 100%;
   height: 18%;
   display: flex;
@@ -37,21 +39,21 @@
   justify-content: center;
   font-family: Segoe UI;
 }
-/* .heading {
-  
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 58px;
-  letter-spacing: 0em;
-  text-align: left;
-} */
+.heading{
+  font-size:4rem;
+  font-weight:700;
+}
+.date{
+  font-size:2rem;
+  font-weight:300;
+  color:#E3E3E3;
+}
+
 
 /* middle section style */
 
 .daysSection {
   width: 100%;
-  /* background: grey; */
   height: 18%;
   align-items: center;
   display: flex;
@@ -69,14 +71,6 @@
   color: white;
 }
 
-.dayActive {
-  font-family: Segoe UI;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 33px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: white;
-  text-decoration: underline;
+.today {
+  border-bottom:2px solid #329DAC;
 }
