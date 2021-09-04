@@ -2,6 +2,7 @@ import styles from './styles.module.css';
 import Header from './Header';
 import Days from './Days';
 import DayTimeLine from './DayTimeLine';
+import Card from './Card'
 export default function TimeTable (){
     return(
         <>
@@ -10,6 +11,7 @@ export default function TimeTable (){
             <Header/>
             <Days/>
             <DayTimeLine/>
+            <Card/>
         </div>
         </>
     )

@@ -54,7 +54,7 @@
 .daysSection {
   width: 100%;
   height: 18%;
-  padding:0 10rem;
+  padding: 0 10rem;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -90,13 +90,61 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform:translate(-50%, -50%);
-  background:  #C4C4C4;
+  transform: translate(-50%, -50%);
+  background: #c4c4c4;
 }
 .circle {
   content: "";
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background:  #C4C4C4;
+  background: #c4c4c4;
+}
+
+/* card section */
+.CardContainer {
+  /* background: red; */
+  width: 100%;
+  height: 56%;
+  display: flex;
+}
+
+.card {
+  margin: 2rem 2rem 2rem 0;
+  padding: 2.5rem;
+  width: 250px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: white;
+  border-radius: 8%;
+  /* display: flex; */
+  backdrop-filter:blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.Period {
+  font-family: Segoe UI;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Teacher {
+  font-family: Segoe UI;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Time {
+  font-family: Segoe UI;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
 }
