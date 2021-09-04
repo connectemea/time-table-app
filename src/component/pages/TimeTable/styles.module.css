@@ -4,7 +4,7 @@
   height: 100vh;
   padding: 30px;
   background-image: url(../images/LooperBG.png);
-  background-size: cover;
+  /* background-size: cover; */
   /* display: flex; */
 }
 
