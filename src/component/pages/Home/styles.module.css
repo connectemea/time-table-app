@@ -1,27 +1,32 @@
 /* entire content wrapper */
 .contentWrapper {
   height: 100vh;
+  background-image:url(../images/LooperGroup.png), radial-gradient(50% 50% at 50% 50%, #1E3A3E 0%, #161B1F 100%);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 /* Title section  */
 .titleSection {
   padding-top: 50px;
   text-align: center;
+  color:white;
 }
 .mainTitle {
-  color: lemonchiffon;
-  font-size: xx-large;
+  font-size: 4.3rem;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: bold;
 }
 
 .subTitle {
-  font-size: 13px;
+  font-size: 1.8rem;
   font-family: -webkit-body;
-  color: lemonchiffon;
+  color:#D1D1D1;
 }
 .bottomTitle {
-  font-size: 12px;
+  display:flex;
+  font-size:1.8rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: aliceblue;
   position: fixed;
@@ -30,7 +35,7 @@
   transform: translate(-50%, -50%);
 }
 .brandName {
-  font-size: 15px;
-  font-family: sans-serif;
-  font-weight: 700;
+  height:3rem;
+  width:10rem;
+  
 }

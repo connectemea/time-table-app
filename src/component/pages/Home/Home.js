@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
+import BrandName from '../images/TinkerHubLogo.png';
 const Home = () => {
   return (
     <div className={styles.contentWrapper}>
@@ -9,7 +10,7 @@ const Home = () => {
       </div>
       <div className={styles.bottomTitle}>
         Crafted with&#128150;
-        <span className={styles.brandName}>TinkerHub</span>
+        <img className={styles.brandName} src={BrandName}/>
       </div>
     </div>
   );
