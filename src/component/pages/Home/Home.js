@@ -10,7 +10,7 @@ const Home = () => {
       </div>
       <div className={styles.MiddleContent}>
         <div className={styles.LoginBox}>
-          <div className={styles.departmentBox}>
+          <div className={`${styles.departmentBox} ${styles.selectSection}`}>
             <select className={styles.selectBox} id="dropdown">
               <option className={styles.selectOption} value="Select Department">Select Department</option>
               <option className={styles.selectOption} value="BSc Computer Science">BSc Computer Science</option>
@@ -33,7 +33,7 @@ const Home = () => {
               </option>
             </select>
           </div>
-          <div className={styles.semesterBox}>
+          <div className={`${styles.semesterBox} ${styles.selectSection}`}>
             <select className={styles.selectBox} id="dropdown">
               <option className={styles.selectOption} value="Select Semester">Select Semester</option>
               <option className={styles.selectOption} value="1st Sem">1st Sem</option>
@@ -49,7 +49,7 @@ const Home = () => {
 
       <div className={styles.bottomTitle}>
         Crafted with&#128150;
-        <img className={styles.brandName} src={BrandName} />
+        <img className={styles.brandName} src={BrandName} alt="TinkerHub EMEA"/>
       </div>
     </div>
   );
