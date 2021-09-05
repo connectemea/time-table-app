@@ -1,16 +1,17 @@
 /* entire content wrapper */
 .contentWrapper {
   height: 100vh;
-  background-image:url(../images/LooperGroup.png), radial-gradient(50% 50% at 50% 50%, #1E3A3E 0%, #161B1F 100%);
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
+  background-image: url(../images/LooperGroup.png),
+    radial-gradient(50% 50% at 50% 50%, #1e3a3e 0%, #161b1f 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 /* Title section  */
 .titleSection {
   padding-top: 50px;
   text-align: center;
-  color:white;
+  color: white;
 }
 .mainTitle {
   font-size: 4.3rem;
@@ -22,11 +23,11 @@
 .subTitle {
   font-size: 1.8rem;
   font-family: -webkit-body;
-  color:#D1D1D1;
+  color: #d1d1d1;
 }
 .bottomTitle {
-  display:flex;
-  font-size:1.8rem;
+  display: flex;
+  font-size: 1.8rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: aliceblue;
   position: fixed;
@@ -35,16 +36,15 @@
   transform: translate(-50%, -50%);
 }
 .brandName {
-  height:3rem;
-  width:10rem;
-  
+  height: 3rem;
+  width: 10rem;
 }
 .selectBox1 {
   height: 4rem;
   width: 25rem;
-  position: fixed;
+  /* position: fixed;
   left: 40%;
-  bottom: 57%;
+  bottom: 57%; */
   border-radius: 15px;
   border-color: grey;
   border-width: 2px;
@@ -54,9 +54,9 @@
 .selectBox2 {
   height: 4rem;
   width: 25rem;
-  position: fixed;
+  /* position: fixed;
   left: 40%;
-  bottom: 41%;
+  bottom: 41%; */
   border-radius: 15px;
   border-color: grey;
   border-width: 2px;
@@ -67,10 +67,26 @@
   color: white;
   height: 2rem;
   width: 13rem;
-  position: fixed;
-  left: 45%;
-  bottom: 30%;
+  /* position: fixed; */
+  /* left: 45%; */
+  /* bottom: 30%; */
   border-radius: 30px;
   border: none;
-  background:#2f7878;
+  background: #2f7878;
+}
+.LoginBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 397px;
+  width: 441px;
+  border-radius: 16px;
+}
+.MiddleContent {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
