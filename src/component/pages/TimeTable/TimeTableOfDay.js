@@ -1,6 +1,19 @@
 import React from "react";
 import styles from "./styles.module.css";
-function CardComponent() {
+
+function TimeTableOfDay() {
+  return (
+    <div className={styles.CardContainer}>
+      <HourCard />
+      <HourCard />
+      <HourCard />
+      <HourCard />
+      <HourCard />
+
+    </div>
+  );
+}
+const HourCard = () => {
   return (
     <div className={styles.card}>
       <h1 className={styles.Period}>Period 1</h1>
@@ -9,6 +22,6 @@ function CardComponent() {
       <p className={styles.Time}>09:00 to 09:40</p>
     </div>
   );
-}
+};
 
-export default CardComponent;
+export default TimeTableOfDay;

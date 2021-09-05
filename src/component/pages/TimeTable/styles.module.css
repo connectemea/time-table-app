@@ -60,14 +60,26 @@
   justify-content: space-between;
 }
 .day {
+  position:relative;
   font-family: Segoe UI;
-  font-size: 25px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 33px;
-  letter-spacing: 0em;
+  line-height: 3.3rem;
   text-align: left;
   color: white;
+}
+.day::before{
+  width:100%;
+  height:2px;
+  background-color:#329dac;
+  position:absolute;
+  bottom:0;
+  left:0;
+  transform:scale(0);
+}
+.day:hover::before{
+  transform:scale(1);
 }
 .today {
   border-bottom: 2px solid #329dac;
@@ -77,7 +89,7 @@
 .timeLineSection {
   display: flex;
   width: 100%;
-  padding: 20px 10rem;
+  padding: 2rem 10rem;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -112,7 +124,7 @@
 .card {
   margin: 2rem 2rem 2rem 0;
   padding: 2.5rem;
-  width: 250px;
+  width: 2.5rem;
   box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   color: white;
@@ -123,28 +135,28 @@
 }
 .Period {
   font-family: Segoe UI;
-  font-size: 38px;
+  font-size: 3.8rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 5rem;
   letter-spacing: 0em;
   text-align: left;
 }
 .Teacher {
   font-family: Segoe UI;
-  font-size: 19px;
+  font-size: 1.9rem;
   font-style: normal;
   font-weight: 350;
-  line-height: 25px;
+  line-height: 2.5rem;
   letter-spacing: 0em;
   text-align: left;
 }
 .Time {
   font-family: Segoe UI;
-  font-size: 17px;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: 350;
-  line-height: 22px;
+  line-height: 2.2rem;
   letter-spacing: 0em;
   text-align: left;
 }
