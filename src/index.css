@@ -4,9 +4,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 /* root dom style */
 :root{
   font-size:10px;
+}
+
+/* break points */
+@media screen and (max-width:1025px){
+  :root{
+    font-size:8px;
+  }
 }
 @media screen and (max-width:700px){
   :root{

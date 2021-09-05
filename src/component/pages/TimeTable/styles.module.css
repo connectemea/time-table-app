@@ -22,7 +22,7 @@
 .header {
   color: white;
   width: 100%;
-  height: 18%;
+  height: 15%;
   display: flex;
   padding-left: 46px;
 }
@@ -53,14 +53,14 @@
 /* day section style */
 .daysSection {
   width: 100%;
-  height: 18%;
+  height: 15%;
   padding: 0 10rem;
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
 .day {
-  position:relative;
+  position: relative;
   font-family: Segoe UI;
   font-size: 2.5rem;
   font-style: normal;
@@ -69,21 +69,21 @@
   text-align: left;
   color: white;
 }
-.day::before{
-  content:'';
-  width:100%;
-  height:2px;
-  background-color:#329dac;
-  position:absolute;
-  bottom:-2.5px;
-  left:0;
-  transform:scale(0);
-  transform-origin:right;
-  transition:transform .5s;
+.day::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #329dac;
+  position: absolute;
+  bottom: -2.5px;
+  left: 0;
+  transform: scale(0);
+  transform-origin: right;
+  transition: transform 0.5s;
 }
-.day:hover::before{
-  transform-origin:left;
-  transform:scale(1);
+.day:hover::before {
+  transform-origin: left;
+  transform: scale(1);
 }
 .today {
   font-family: Segoe UI;
@@ -100,6 +100,7 @@
 .timeLineSection {
   display: flex;
   width: 100%;
+  height: 10%;
   padding: 2rem 10rem;
   justify-content: space-between;
   align-items: center;
@@ -108,13 +109,21 @@
 /* To create the line */
 .timeLineSection::before {
   content: "";
-  width: calc(100% - 20rem);
+  width: calc(98.5% - 20rem);
   height: 5px;
   position: absolute;
-  top: 50%;
+  top: 110%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #c4c4c4;
+}
+.dayNumber {
+  font-family: Segoe UI;
+}
+.number {
+  font-size: 5.5rem;
+  color: white;
+  margin-left: -10px;
 }
 .circle {
   content: "";
@@ -128,7 +137,7 @@
 .CardContainer {
   /* background: red; */
   width: 100%;
-  height: 56%;
+  height: 60%;
   display: flex;
 }
 
@@ -141,7 +150,7 @@
   color: white;
   border-radius: 8%;
   /* display: flex; */
-  backdrop-filter:blur(10px);
+  backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.1);
 }
 .Period {
@@ -166,40 +175,50 @@
   text-align: left;
 }
 
-@media screen and (max-width:700px){
-  .header{
-    padding-left:0;
-    height:15%;
+@media screen and (max-width: 1025px) {
+  .header {
+    padding-left: 0;
+    height: 15%;
   }
-  .daysSection{
-    padding:0 1rem;
-    height:15%;
+  .daysSection {
+    padding: 0 1rem;
+    height: 15%;
   }
-  .timeLineSection{
-    width:10%;
-    height:60%;
-    margin-top:5%;
-    padding:0;
-    flex-direction:column;
+  .timeLineSection {
+    width: 10%;
+    height: 60%;
+    margin-top: 5%;
+    padding: 0;
+    padding-right: 15px;
+    flex-direction: column;
   }
-  .timeLineSection::before{
-    height:100%;
-    width:3px;
+  .timeLineSection::before {
+    height: 90%;
+    width: 3px;
+    top: 50%;
+    left: 59%;
   }
-  .circle{
-    width:8px;
-    height:8px;
+  .dayNumber {
+    display: flex;
+    align-items: center;
   }
-  .CardContainer{
-    width:90%;
-    height:70%;
-    flex-wrap:wrap;
+  .number {
+    margin-right: 13px;
   }
-  .card{
-    width:100%;
-    padding:1rem 2.5rem;
-    height:calc(100% / 5 - 1rem);
-    margin:0;
-    margin-bottom:1rem;
+  .circle {
+    width: 8px;
+    height: 8px;
+  }
+  .CardContainer {
+    width: 90%;
+    height: 70%;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+    padding: 1rem 2.5rem;
+    height: calc(100% / 5 - 1rem);
+    margin: 0;
+    margin-bottom: 1rem;
   }
 }
