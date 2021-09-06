@@ -67,6 +67,7 @@
   font-weight: 400;
   line-height: 3.3rem;
   text-align: left;
+  cursor: pointer;
   color: white;
 }
 .day::before {
@@ -94,6 +95,7 @@
   text-align: left;
   color: white;
   border-bottom: 2px solid #329dac;
+  cursor: pointer;
 }
 
 /* timeline section */

@@ -113,19 +113,20 @@
   border: none;
   background: transparent;
   transition: box-shadow 0.5s;
+  cursor: pointer;
 }
 .button:hover {
   box-shadow: inset 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 /* break points  */
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
   .LoginBox {
     width: 75%;
   }
 }
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .LoginBox {
-    width: 45%;
+    width: 85%;
   }
 }
