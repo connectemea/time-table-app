@@ -3,6 +3,7 @@ import Header from "./Header";
 import Days from "./Days";
 import DayTimeLine from "./DayTimeLine";
 import TimeTableOfDay from "./TimeTableOfDay";
+import today from "../../const/Date";
 export default function TimeTable() {
   const curenntDay = new Date();
   const timeTable = [
@@ -138,20 +139,7 @@ export default function TimeTable() {
     ],
   ];
 
-  // date
-  var today = new Date();
-  var dd = today.getDate();
-
-  var mm = today.getMonth() + 1;
-  var yyyy = today.getFullYear();
-  if (dd < 10) {
-    dd = "0" + dd;
-  }
-
-  if (mm < 10) {
-    mm = "0" + mm;
-  }
-  today = dd + "/" + mm + "/" + yyyy;
+  
 
   return (
     <>
