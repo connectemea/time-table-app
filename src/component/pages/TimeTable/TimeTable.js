@@ -3,7 +3,6 @@ import Header from "./Header";
 import Days from "./Days";
 import DayTimeLine from "./DayTimeLine";
 import TimeTableOfDay from "./TimeTableOfDay";
-import today from "../../const/Date";
 export default function TimeTable() {
   const curenntDay = new Date();
   const timeTable = [
@@ -140,26 +139,27 @@ export default function TimeTable() {
   ];
 
   // date
+  const months = ['JAN' , 'FEB' , 'MAR' , 'APR' , 'MAY' , 'JUN' , 'JULY' , 'AUG' , 'SEP' , 'OCT' , 'NOV' , 'DEC']
   var today = new Date();
-  var date = today.getDate();
-  var day = (Number(today.getDay()) - 1) % 5;
-
-  var month = today.getMonth() + 1;
-  var year = today.getFullYear();
-  if (date < 10) {
-    date = "0" + date;
+  var dd = today.getDate();
+  var mm = today.getMonth();
+  var yyyy = today.getFullYear();
+  var currentMonth={}
+  if (dd < 10) {
+    dd = "0" + dd;
   }
-
-  if (month < 10) {
-    month = "0" + month;
-  }
-  today = date + "/" + month + "/" + year;
+  
+  // if (mm < 10) {
+  //   mm = "0" + mm;
+  // }
+  today = dd + "/" + mm + "/" + yyyy;
+  
 
   return (
     <>
       <div className={styles.contentWrapper}>
         <Header today={today}/>
-        <Days day={day}/>
+        <Days />
         <DayTimeLine />
         <TimeTableOfDay />
       </div>
