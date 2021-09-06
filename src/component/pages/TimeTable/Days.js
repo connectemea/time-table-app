@@ -1,4 +1,5 @@
 
+import days from "../../const/days"
 import styles from "./styles.module.css";
 export default function Days(props) {
     const {day} = props;
