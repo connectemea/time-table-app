@@ -5,14 +5,21 @@ import BrandName from "../images/TinkerHubLogo.png";
 import Departments from "../../const/Departments";
 import Semesters from "../../const/Semesters";
 const Home = () => {
-  const [department, setDepartment] = useState();
-  const [semester, setSemester] = useState();
-  
+  const [department, setDepartment] = useState("0");
+  const [semester, setSemester] = useState("0");
+
   const Option = ({ name, value }) => (
     <option className={styles.selectOption} value={value}>
       {name}
     </option>
-  );
+  ); 
+  const handleShowTimeTable = () =>{
+    const data = {
+      department,
+      semester
+    }
+    console.log(data);
+  }
 
   useEffect(() => {
     // console.log(Departments,Semesters);
@@ -27,13 +34,13 @@ const Home = () => {
         <div className={styles.LoginBox}>
           <div className={styles.centerDiv}>
             <div className={styles.selectSection}>
-              <select className={styles.selectBox} id="dropdown">
-                <option
+              <select className={styles.selectBox} id="dropdown" onChange={(e)=>setDepartment(e.target.value)} value={department}>
+                {/* <option
                   className={styles.selectOption}
                   value="Select Department"
                 >
                   Select Department
-                </option>
+                </option> */}
                 {
                   Departments && Departments.map((dep,ind)=><Option name={dep.name} value={ind}/>)
                 }
@@ -41,17 +48,17 @@ const Home = () => {
               </select>
             </div>
             <div className={styles.selectSection}>
-              <select className={styles.selectBox} id="dropdown">
-              <option className={styles.selectOption} value="Select Semester">
+              <select className={styles.selectBox} id="dropdown" onChange={(e)=>setSemester(e.target.value)} value={semester}>
+              {/* <option className={styles.selectOption} value="Select Semester">
                   Select Semester
-                </option>
+                </option> */}
               {
                 Semesters && Semesters.map((sem,ind)=><Option value={ind} name={sem.name}/>)
               }
               </select>
             </div>
             <div className={styles.showBtn}>
-              <button className={styles.button}>Show Timetable</button>
+              <button className={styles.button} onClick={handleShowTimeTable}>Show Timetable</button>
             </div>
           </div>
         </div>
