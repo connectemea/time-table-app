@@ -140,24 +140,25 @@ export default function TimeTable() {
 
   // date
   var today = new Date();
-  var dd = today.getDate();
+  var date = today.getDate();
+  var day = (Number(today.getDay()) - 1) % 5;
 
-  var mm = today.getMonth() + 1;
-  var yyyy = today.getFullYear();
-  if (dd < 10) {
-    dd = "0" + dd;
+  var month = today.getMonth() + 1;
+  var year = today.getFullYear();
+  if (date < 10) {
+    date = "0" + date;
   }
 
-  if (mm < 10) {
-    mm = "0" + mm;
+  if (month < 10) {
+    month = "0" + month;
   }
-  today = dd + "/" + mm + "/" + yyyy;
+  today = date + "/" + month + "/" + year;
 
   return (
     <>
       <div className={styles.contentWrapper}>
         <Header today={today}/>
-        <Days />
+        <Days day={day}/>
         <DayTimeLine />
         <TimeTableOfDay />
       </div>
