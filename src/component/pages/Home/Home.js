@@ -1,7 +1,22 @@
 import React from "react";
+import { useState,useEffect } from "react";
 import styles from "./styles.module.css";
 import BrandName from "../images/TinkerHubLogo.png";
+import Departments from "../../const/Departments";
+import Semesters from "../../const/Semesters";
 const Home = () => {
+  const [department, setDepartment] = useState();
+  const [semester, setSemester] = useState();
+  
+  const Option = ({ name, value }) => (
+    <option className={styles.selectOption} value={value}>
+      {name}
+    </option>
+  );
+
+  useEffect(() => {
+    // console.log(Departments,Semesters);
+  }, [])
   return (
     <div className={styles.contentWrapper}>
       <div className={styles.titleSection}>
@@ -19,79 +34,20 @@ const Home = () => {
                 >
                   Select Department
                 </option>
-                <option
-                  className={styles.selectOption}
-                  value="BSc Computer Science"
-                >
-                  BSc Computer Science
-                </option>
-                <option className={styles.selectOption} value="BA Economics">
-                  BA Economics
-                </option>
-                <option className={styles.selectOption} value="B.Com Cop">
-                  B.Com
-                </option>
-                <option className={styles.selectOption} value="BA English">
-                  BA English
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BSc Microbiology"
-                >
-                  BSc Microbiology
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BA West Asian Studies"
-                >
-                  BA West Asian Studies
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BSc Biotechnology"
-                >
-                  BSc Biotechnology
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BSc Biochemistry"
-                >
-                  BSc Biochemistry
-                </option>
-                <option className={styles.selectOption} value="BBA">
-                  BBA
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="B.Com Computer Application"
-                >
-                  B.Com Computer Application
-                </option>
-                <option className={styles.selectOption} value="BVoc Logistics">
-                  BVoc Logistics
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BVoc Accounting and Taxation"
-                >
-                  BVoc Accounting and Taxation
-                </option>
+                {
+                  Departments && Departments.map((dep,ind)=><Option name={dep.name} value={ind}/>)
+                }
+
               </select>
             </div>
             <div className={styles.selectSection}>
               <select className={styles.selectBox} id="dropdown">
-                <option className={styles.selectOption} value="Select Semester">
+              <option className={styles.selectOption} value="Select Semester">
                   Select Semester
                 </option>
-                <option className={styles.selectOption} value="1st Sem">
-                  1st Sem
-                </option>
-                <option className={styles.selectOption} value="2nd Sem">
-                  2nd Sem
-                </option>
-                <option className={styles.selectOption} value="3rd Sem">
-                  3rd Sem
-                </option>
+              {
+                Semesters && Semesters.map((sem,ind)=><Option value={ind} name={sem.name}/>)
+              }
               </select>
             </div>
             <div className={styles.showBtn}>
