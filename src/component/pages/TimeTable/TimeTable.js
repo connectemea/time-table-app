@@ -3,6 +3,7 @@ import Header from "./Header";
 import Days from "./Days";
 import DayTimeLine from "./DayTimeLine";
 import TimeTableOfDay from "./TimeTableOfDay";
+import today from "../../const/Date";
 export default function TimeTable() {
   const curenntDay = new Date();
   const timeTable = [
