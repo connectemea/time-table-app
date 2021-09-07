@@ -1,336 +1,411 @@
 const firstSem = [
   [
     {
-      sub: "maths",
+      sub: "statistics",
       time: "9-10",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "2nd Language",
+      time: "10-11",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "English",
+      time: "11-12",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "Maths",
+      time: "1-2",
+      teacher: "Vasheeda miss",
     },
     {
-      sub: "maths",
-      time: "9-10",
-    },
-  ],
-  [
-    {
-      sub: "computer science",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
+      sub: "statistics",
+      time: "2-3",
+      teacher: "V",
     },
   ],
   [
     {
-      sub: "english",
+      sub: "English ",
       time: "9-10",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "CF&HTML",
+      time: "10-11",
+      teacher: "AMR",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "2nd Language",
+      time: "11-12",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "English",
+      time: "1-2",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
-    },
-  ],
-  [
-    {
-      sub: "arbic",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
+      sub: "Maths",
+      time: "2-3",
+      teacher: "Vasheeda miss",
     },
   ],
   [
     {
-      sub: "urdu",
+      sub: "English",
       time: "9-10",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "HTML Lab",
+      time: "10-11",
+      teacher: "AMR",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "HTML Lab",
+      time: "11-12",
+      teacher: "AMR",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "2nd Language",
+      time: "1-2",
+      teacher: "___",
     },
     {
-      sub: "maths",
+      sub: "English",
+      time: "2-3",
+      teacher: "___",
+    },
+  ],
+  [
+    {
+      sub: "2nd Language",
       time: "9-10",
+      teacher: "___",
+    },
+    {
+      sub: "English",
+      time: "10-11",
+      teacher: "___",
+    },
+    {
+      sub: "Maths",
+      time: "11-12",
+      teacher: "Vasheeda miss",
+    },
+    {
+      sub: "English",
+      time: "1-2",
+      teacher: "___",
+    },
+    {
+      sub: "Statistics",
+      time: "2-3",
+      teacher: "V",
+    },
+  ],
+  [
+    {
+      sub: "Maths",
+      time: "9-10",
+      teacher: "Vasheeda miss",
+    },
+    {
+      sub: "English",
+      time: "10-11",
+      teacher: "___",
+    },
+    {
+      sub: "English",
+      time: "11-12",
+      teacher: "___",
+    },
+    {
+      sub: "Statistics",
+      time: "1-2",
+      teacher: "V",
+    },
+    {
+      sub: "2nd Language",
+      time: "2-3",
+      teacher: "___",
     },
   ],
 ];
 const secondSem = [
   [
     {
-      sub: "maths",
+      sub: "Statistics",
       time: "9-10",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "2nd Language",
+      time: "10-11",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "English",
+      time: "11-12",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "Maths",
+      time: "1-2",
+      teacher: "Vasheeda miss",
     },
     {
-      sub: "maths",
-      time: "9-10",
-    },
-  ],
-  [
-    {
-      sub: "computer science",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
+      sub: "Statistics",
+      time: "2-3",
+      teacher: "AV",
     },
   ],
   [
     {
-      sub: "english",
+      sub: "English",
       time: "9-10",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "C",
+      time: "10-11",
+      teacher: "JK",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "2nd Language",
+      time: "11-12",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "English",
+      time: "1-2",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
-    },
-  ],
-  [
-    {
-      sub: "arbic",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
+      sub: "Maths",
+      time: "2-3",
+      teacher: "Vasheeda miss",
     },
   ],
   [
     {
-      sub: "urdu",
+      sub: "English",
       time: "9-10",
+      teacher: "___",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "C Lab",
+      time: "10-11",
+      teacher: "JK",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "C Lab",
+      time: "11-12",
+      teacher: "JK",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "2nd Language",
+      time: "1-2",
+      teacher: "___",
     },
     {
-      sub: "maths",
+      sub: "English",
+      time: "2-3",
+      teacher: "___",
+    },
+  ],
+  [
+    {
+      sub: "2nd Language",
       time: "9-10",
+      teacher: "___",
+    },
+    {
+      sub: "English",
+      time: "10-11",
+      teacher: "___",
+    },
+    {
+      sub: "Maths",
+      time: "11-12",
+      teacher: "Vasheeda miss",
+    },
+    {
+      sub: "English",
+      time: "1-2",
+      teacher: "___",
+    },
+    {
+      sub: "Statistics",
+      time: "2-3",
+      teacher: "AV",
+    },
+  ],
+  [
+    {
+      sub: "Maths",
+      time: "9-10",
+      teacher: "Vasheeda miss",
+    },
+    {
+      sub: "English",
+      time: "10-11",
+      teacher: "___",
+    },
+    {
+      sub: "English",
+      time: "11-12",
+      teacher: "___",
+    },
+    {
+      sub: "Statistics",
+      time: "1-2",
+      teacher: "AV",
+    },
+    {
+      sub: "2nd Language",
+      time: "2-3",
+      teacher: "___",
     },
   ],
 ];
 const thirdSem = [
   [
     {
-      sub: "maths",
+      sub: "Python",
       time: "9-10",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "Maths",
+      time: "10-11",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "S&T",
+      time: "11-12",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "DS",
+      time: "1-2",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
-    },
-  ],
-  [
-    {
-      sub: "computer science",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
+      sub: "Statistics",
+      time: "2-3",
+      teacher: "RS",
     },
   ],
   [
     {
-      sub: "english",
+      sub: "Maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "DS Lab",
+      time: "10-11",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "DS Lab",
+      time: "11-12",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "Statistics",
+      time: "1-2",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
-    },
-  ],
-  [
-    {
-      sub: "arbic",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
+      sub: "Python",
+      time: "2-3",
+      teacher: "RS",
     },
   ],
   [
     {
-      sub: "urdu",
+      sub: "DS",
       time: "9-10",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "Statistics",
+      time: "10-11",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "Python",
+      time: "11-12",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "Maths",
+      time: "1-2",
+      teacher: "RS",
     },
     {
-      sub: "maths",
+      sub: "S&T",
+      time: "2-3",
+      teacher: "RS",
+    },
+  ],
+  [
+    {
+      sub: "Statistics",
       time: "9-10",
+      teacher: "RS",
+    },
+    {
+      sub: "DS Lab",
+      time: "10-11",
+      teacher: "RS",
+    },
+    {
+      sub: "DS Lab",
+      time: "11-12",
+      teacher: "RS",
+    },
+    {
+      sub: "Maths",
+      time: "1-2",
+      teacher: "RS",
+    },
+    {
+      sub: "S&T",
+      time: "2-3",
+      teacher: "RS",
+    },
+  ],
+  [
+    {
+      sub: "S&T",
+      time: "9-10",
+      teacher: "RS",
+    },
+    {
+      sub: "DS",
+      time: "10-11",
+      teacher: "RS",
+    },
+    {
+      sub: "Python",
+      time: "11-12",
+      teacher: "RS",
+    },
+    {
+      sub: "Maths",
+      time: "1-2",
+      teacher: "RS",
+    },
+    {
+      sub: "Statistics",
+      time: "2-3",
+      teacher: "RS",
     },
   ],
 ];
@@ -339,222 +414,272 @@ const fourthSem = [
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
   [
     {
       sub: "computer science",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
   [
     {
       sub: "english",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
   [
     {
       sub: "arbic",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
   [
     {
       sub: "urdu",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
 ];
 const fifthSem = [
   [
     {
-      sub: "maths",
+      sub: "PHP",
       time: "9-10",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "CO",
+      time: "10-11",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "OC",
+      time: "11-12",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "PHP Lab",
+      time: "1-2",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
-    },
-  ],
-  [
-    {
-      sub: "computer science",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
+      sub: "PHP Lab",
+      time: "2-3",
+      teacher: "RS",
     },
   ],
   [
     {
-      sub: "english",
+      sub: "PHP",
       time: "9-10",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "SE",
+      time: "10-11",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "OC",
+      time: "11-12",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "CO",
+      time: "1-2",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
-    },
-  ],
-  [
-    {
-      sub: "arbic",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
-    },
-    {
-      sub: "maths",
-      time: "9-10",
+      sub: "Java Lab",
+      time: "2-3",
+      teacher: "RS",
     },
   ],
   [
     {
-      sub: "urdu",
+      sub: "PHP",
       time: "9-10",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "Java",
+      time: "10-11",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "OC",
+      time: "11-12",
+      teacher: "RS",
     },
     {
-      sub: "maths",
-      time: "9-10",
+      sub: "PHP Lab",
+      time: "1-2",
+      teacher: "RS",
     },
     {
-      sub: "maths",
+      sub: "SE",
+      time: "2-3",
+      teacher: "RS",
+    },
+  ],
+  [
+    {
+      sub: "CO",
       time: "9-10",
+      teacher: "RS",
+    },
+    {
+      sub: "SE",
+      time: "10-11",
+      teacher: "RS",
+    },
+    {
+      sub: "Java",
+      time: "11-12",
+      teacher: "RS",
+    },
+    {
+      sub: "Java Lab",
+      time: "1-2",
+      teacher: "RS",
+    },
+    {
+      sub: "Java Lab",
+      time: "2-3",
+      teacher: "RS",
+    },
+  ],
+  [
+    {
+      sub: "SE",
+      time: "9-10",
+      teacher: "RS",
+    },
+    {
+      sub: "Java",
+      time: "10-11",
+      teacher: "RS",
+    },
+    {
+      sub: "CO",
+      time: "11-12",
+      teacher: "RS",
+    },
+    {
+      sub: "Project Lab",
+      time: "1-2",
+      teacher: "RS",
+    },
+    {
+      sub: "Project Lab",
+      time: "2-3",
+      teacher: "RS",
     },
   ],
 ];
@@ -563,110 +688,135 @@ const sixthSem = [
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
   [
     {
       sub: "computer science",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
   [
     {
       sub: "english",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
   [
     {
       sub: "arbic",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
   [
     {
       sub: "urdu",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
     {
       sub: "maths",
       time: "9-10",
+      teacher: "RS",
     },
   ],
 ];
