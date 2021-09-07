@@ -1,10 +1,11 @@
 import styles from "./styles.module.css";
+import { useState } from "react";
 import Header from "./Header";
 import Days from "./Days";
 import DayTimeLine from "./DayTimeLine";
 import TimeTableOfDay from "./TimeTableOfDay";
+import { months } from "../../const/DateHelper";
 export default function TimeTable() {
-  const curenntDay = new Date();
   const timeTable = [
     [
       {
@@ -26,15 +27,11 @@ export default function TimeTable() {
       {
         sub: "maths",
         time: "9-10",
-      },
-      {
-        sub: "maths",
-        time: "9-10",
-      },
+      }
     ],
     [
       {
-        sub: "maths",
+        sub: "computer science",
         time: "9-10",
       },
       {
@@ -52,15 +49,11 @@ export default function TimeTable() {
       {
         sub: "maths",
         time: "9-10",
-      },
-      {
-        sub: "maths",
-        time: "9-10",
-      },
+      }
     ],
     [
       {
-        sub: "maths",
+        sub: "english",
         time: "9-10",
       },
       {
@@ -78,15 +71,11 @@ export default function TimeTable() {
       {
         sub: "maths",
         time: "9-10",
-      },
-      {
-        sub: "maths",
-        time: "9-10",
-      },
+      }
     ],
     [
       {
-        sub: "maths",
+        sub: "arbic",
         time: "9-10",
       },
       {
@@ -104,15 +93,11 @@ export default function TimeTable() {
       {
         sub: "maths",
         time: "9-10",
-      },
-      {
-        sub: "maths",
-        time: "9-10",
-      },
+      }
     ],
     [
       {
-        sub: "maths",
+        sub: "urdu",
         time: "9-10",
       },
       {
@@ -130,37 +115,46 @@ export default function TimeTable() {
       {
         sub: "maths",
         time: "9-10",
-      },
-      {
-        sub: "maths",
-        time: "9-10",
-      },
+      }
     ],
   ];
+  const getDateStr = (date, month, year) =>
+    `${date < 10 ? "0" + date : date} ${months[month]} ${year}`;
 
-  // date
-  const month = ['JAN' , 'FEB' , 'MAR' , 'APR' , 'MAY' , 'JUN' , 'JULY' , 'AUG' , 'SEP' , 'OCT' , 'NOV' , 'DEC']
-  var today = new Date();
-  var dd = today.getDate();
-  var mm = today.getMonth() + 1;
-  var yyyy = today.getFullYear();
-  if (dd < 10) {
-    dd = "0" + dd;
-  }
-  
-  if (mm < 10) {
-    mm = "0" + mm;
-  }
-  today = dd + "/" + mm + "/" + yyyy;
-  
+  const weekDayInd = (day) => (day - 1) % 6;
+  const today = new Date();
+  const date = today.getDate();
+  const month = today.getMonth();
+  const year = today.getFullYear();
+  const day = weekDayInd(today.getDay());
+  const [selectedDay, setSelectedDay] = useState(day);
+  const [selectedDate, setSelectedDate] = useState(
+    getDateStr(date, month, year)
+  );
+  const [dep, setDep] = useState(0);
+  const [sem, setSem] = useState(0);
+  const getChangedDate = (changedDate) => {
+    const date = new Date();
+    date.setDate(date.getDate() + (weekDayInd(date.getDate()) + changedDate) - 1);
+    return getDateStr(date.getDate(), date.getMonth(), date.getFullYear());
+  };
+  const handleDayChange = (day) => {
+    setSelectedDate(getChangedDate(day));
+    setSelectedDay(day);
+  };
 
   return (
     <>
       <div className={styles.contentWrapper}>
-        <Header today={d}/>
-        <Days />
+        <Header date={selectedDate} day={day} selectedDay={selectedDay} />
+        <Days
+          currentDay={selectedDay}
+          handleDayChange={handleDayChange}
+        />
         <DayTimeLine />
-        <TimeTableOfDay />
+        <TimeTableOfDay 
+          tableData = {timeTable[selectedDay]}
+        />
       </div>
     </>
   );
