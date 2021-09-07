@@ -139,26 +139,25 @@ export default function TimeTable() {
   ];
 
   // date
-  const months = ['JAN' , 'FEB' , 'MAR' , 'APR' , 'MAY' , 'JUN' , 'JULY' , 'AUG' , 'SEP' , 'OCT' , 'NOV' , 'DEC']
+  const month = ['JAN' , 'FEB' , 'MAR' , 'APR' , 'MAY' , 'JUN' , 'JULY' , 'AUG' , 'SEP' , 'OCT' , 'NOV' , 'DEC']
   var today = new Date();
   var dd = today.getDate();
-  var mm = today.getMonth();
+  var mm = today.getMonth() + 1;
   var yyyy = today.getFullYear();
-  var currentMonth={}
   if (dd < 10) {
     dd = "0" + dd;
   }
   
-  // if (mm < 10) {
-  //   mm = "0" + mm;
-  // }
+  if (mm < 10) {
+    mm = "0" + mm;
+  }
   today = dd + "/" + mm + "/" + yyyy;
   
 
   return (
     <>
       <div className={styles.contentWrapper}>
-        <Header today={today}/>
+        <Header today={d}/>
         <Days />
         <DayTimeLine />
         <TimeTableOfDay />
