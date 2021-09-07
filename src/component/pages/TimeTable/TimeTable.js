@@ -4,7 +4,7 @@ import Days from "./Days";
 import DayTimeLine from "./DayTimeLine";
 import TimeTableOfDay from "./TimeTableOfDay";
 export default function TimeTable() {
-    const curenntDay = new Date()
+  const curenntDay = new Date();
   const timeTable = [
     [
       {
@@ -135,7 +135,7 @@ export default function TimeTable() {
         sub: "maths",
         time: "9-10",
       },
-    ]
+    ],
   ];
   return (
     <>
