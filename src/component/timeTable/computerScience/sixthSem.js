@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-CN",
+    teacher: "HK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-OS",
+    teacher: "AMR",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-OS",
+    teacher: "AMR",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-MP",
+    teacher: "JK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-OS(Lab)",
+    teacher: "AMR",
   },
 ];
 const tue = [
   {
-    sub: "computer science",
-    teacher: "RS",
+    sub: "CS-CN",
+    teacher: "HK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-AP",
+    teacher: "JSH",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-MP",
+    teacher: "JK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-OS(Lab)",
+    teacher: "AMR",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-OS",
+    teacher: "AMR",
   },
 ];
 const wed = [
   {
-    sub: "english",
-    teacher: "RS",
+    sub: "CS-OS",
+    teacher: "AMR",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-OS",
+    teacher: "AMR",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-CN",
+    teacher: "HK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-AP",
+    teacher: "JSH",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-AP(Lab)",
+    teacher: "JSH",
   },
 ];
 const thu = [
   {
-    sub: "arbic",
-    teacher: "RS",
+    sub: "CS-CN",
+    teacher: "HK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-MP",
+    teacher: "HK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS",
+    teacher: "JSH",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-AP",
+    teacher: "JSH",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-AP",
+    teacher: "JSH",
   },
 ];
 const fri = [
   {
-    sub: "urdu",
-    teacher: "RS",
+    sub: "CS-AP",
+    teacher: "JSH",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-MP",
+    teacher: "JK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "CS-CN",
+    teacher: "HK",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "LAB Project",
+    teacher: "AMR",
   },
   {
-    sub: "maths",
-    teacher: "RS",
+    sub: "LAB Project",
+    teacher: "AMR",
   },
 ];
 export default [mon, tue, thu, wed, fri];
