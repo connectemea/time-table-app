@@ -1,77 +1,77 @@
 const mon = [
   {
-    sub: "Poli",
-    teacher: "VCT",
+    sub: "ENG",
+    teacher: "JAL",
   },
   {
-    sub: "Eng",
+    sub: "ENG",
     teacher: "FAS",
   },
   {
-    sub: "Eco",
-    teacher: "VCT",
+    sub: "MCJ",
+    teacher: "MNR",
   },
   {
-    sub: "Eng",
+    sub: "ENG",
     teacher: "ROY",
   },
   {
-    sub: "Eco",
-    teacher: "PMR",
+    sub: "ENG",
+    teacher: "DEV",
   },
 ];
 const tue = [
   {
-    sub: "Eco",
-    teacher: "PMR",
+    sub: "MCJ",
+    teacher: "MNR",
   },
   {
-    sub: "Eng",
+    sub: "ENG",
     teacher: "ROY",
   },
   {
-    sub: "Eng",
+    sub: "ENG",
     teacher: "ABI",
   },
   {
-    sub: "Lang",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "Eng",
-    teacher: "DEV",
+    sub: "ENG",
+    teacher: "RS",
   },
 ];
 const wed = [
   {
-    sub: "Lang",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "Eng",
+    sub: "ENG",
     teacher: "RS",
   },
   {
-    sub: "POLI",
-    teacher: "VCT",
+    sub: "ENG",
+    teacher: "ABI",
   },
   {
-    sub: "POLI",
-    teacher: "VCT",
+    sub: "MCJ",
+    teacher: "MNR",
   },
   {
-    sub: "ECO",
-    teacher: "TVN",
+    sub: "ENG",
+    teacher: "JAL",
   },
 ];
 const thu = [
   {
-    sub: "POLI",
-    teacher: "VCT",
+    sub: "MCJ",
+    teacher: "MNR",
   },
   {
-    sub: "ECO",
-    teacher: "PMR",
+    sub: "ENG",
+    teacher: "ROY",
   },
   {
     sub: "ENG",
@@ -83,7 +83,7 @@ const thu = [
   },
   {
     sub: "ENG",
-    teacher: "RS",
+    teacher: "FAS",
   },
 ];
 const fri = [
@@ -92,20 +92,20 @@ const fri = [
     teacher: "JAL",
   },
   {
-    sub: "POLI",
-    teacher: "VCT",
+    sub: "MCJ",
+    teacher: "MNR",
   },
   {
-    sub: "POLI",
-    teacher: "VCT",
+    sub: "MCJ",
+    teacher: "MNR",
   },
   {
     sub: "LANG",
     teacher: "",
   },
   {
-    sub: "ECO",
-    teacher: "TVN",
+    sub: "ENG",
+    teacher: "ABI",
   },
 ];
 export default [mon, tue, thu, wed, fri];
