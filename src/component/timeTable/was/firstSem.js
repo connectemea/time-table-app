@@ -1,11 +1,11 @@
 const mon = [
   {
-    sub: "statistics",
-    teacher: "RS",
+    sub: "CA",
+    teacher: "SE",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "English",
+    teacher: "Abi",
   },
   {
     sub: "English",
