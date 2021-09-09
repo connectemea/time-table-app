@@ -5,8 +5,9 @@ import Days from "./Days";
 import DayTimeLine from "./DayTimeLine";
 import TimeTableOfDay from "./TimeTableOfDay";
 import { months } from "../../const/DateHelper";
+import timeTable from "../../timeTable";
 export default function TimeTable() {
-  const timeTable = [
+  const timetable = [
     [
       {
         sub: "maths",
@@ -153,7 +154,7 @@ export default function TimeTable() {
         />
         <DayTimeLine />
         <TimeTableOfDay 
-          tableData = {timeTable[selectedDay]}
+          tableData = {timetable[selectedDay]}
         />
       </div>
     </>
