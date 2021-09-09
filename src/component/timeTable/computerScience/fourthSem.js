@@ -1,33 +1,33 @@
 const mon = [
   {
     sub: "Maths",
-    teacher: "VSD",
+    teacher: "VSD"
   },
   {
     sub: "CS",
-    teacher: "JSH",
+    teacher: "JSH"
   },
   {
     sub: "Stati",
-    teacher: "RSK",
+    teacher: "RSK"
   },
   {
     sub: "CS-DBMS",
-    teacher: "HK",
+    teacher: "HK"
   },
   {
     sub: "CS-BAV",
-    teacher: "JK",
+    teacher: "JK"
   },
 ];
 const tue = [
   {
     sub: "Maths",
-    teacher: "VSD",
+    teacher: "VSD"
   },
   {
     sub: "CS-DS(Lab)",
-    teacher: "JK",
+    teacher: "JK"
   },
   {
     sub: "CS-RDBMS(Lab)",
