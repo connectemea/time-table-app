@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "CA",
+    teacher: "SE",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "Eng",
+    teacher: "Abi",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "CA-Lab",
+    teacher: "SE",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "Eng",
+    teacher: "Dev",
   },
   {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "His",
+    teacher: "Nu",
   },
 ];
 const tue = [
   {
-    sub: "English",
+    sub: "His",
+    teacher: "Sbn",
+  },
+  {
+    sub: "Eng",
+    teacher: "Fas",
+  },
+  {
+    sub: "Eng",
+    teacher: "Dev",
+  },
+  {
+    sub: "Lang",
     teacher: "",
   },
   {
-    sub: "C",
-    teacher: "JK",
-  },
-  {
-    sub: "2nd Language",
-    teacher: "",
-  },
-  {
-    sub: "English",
-    teacher: "",
-  },
-  {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "Eng",
+    teacher: "Rs",
   },
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "Lang",
     teacher: "",
   },
   {
-    sub: "C Lab",
-    teacher: "JK",
+    sub: "Eng",
+    teacher: "Abi",
   },
   {
-    sub: "C Lab",
-    teacher: "JK",
+    sub: "CA-(LAB)",
+    teacher: "Se",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "His",
+    teacher: "Nu",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "His",
+    teacher: "Sbn",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "CA-LAB",
+    teacher: "Se",
+  },
+  {
+    sub: "CA-LAB",
+    teacher: "Se",
+  },
+  {
+    sub: "Eng",
+    teacher: "Dev",
+  },
+  {
+    sub: "Lang",
     teacher: "",
   },
   {
-    sub: "English",
-    teacher: "",
-  },
-  {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
-    teacher: "",
-  },
-  {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "Eng",
+    teacher: "Fas",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "Eng",
+    teacher: "Fas",
   },
   {
-    sub: "English",
+    sub: "Ca",
+    teacher: "Se",
+  },
+  {
+    sub: "His",
+    teacher: "Sbn",
+  },
+  {
+    sub: "Lang",
     teacher: "",
   },
   {
-    sub: "English",
-    teacher: "",
-  },
-  {
-    sub: "Statistics",
-    teacher: "AV",
-  },
-  {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "His",
+    teacher: "Ktf",
   },
 ];
 export default [mon, tue, thu, wed, fri];
