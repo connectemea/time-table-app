@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "COM",
+    teacher: "MJ",
   },
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "FSL",
   },
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "BLK",
   },
   {
-    sub: "CS-MP",
-    teacher: "JK",
+    sub: "COM",
+    teacher: "FSL",
   },
   {
-    sub: "CS-OS(Lab)",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "RF",
   },
 ];
 const tue = [
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "COM",
+    teacher: "BLK",
   },
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "COM",
+    teacher: "MJ",
   },
   {
-    sub: "CS-MP",
-    teacher: "JK",
+    sub: "COM",
+    teacher: "ANS",
   },
   {
-    sub: "CS-OS(Lab)",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "RF",
   },
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "FSL",
   },
 ];
 const wed = [
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "MJ",
   },
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "FSL",
   },
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "COM",
+    teacher: "ANS",
   },
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "COM",
+    teacher: "BLK",
   },
   {
-    sub: "CS-AP(Lab)",
-    teacher: "JSH",
+    sub: "COM",
+    teacher: "RF",
   },
 ];
 const thu = [
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "COM",
+    teacher: "RF",
   },
   {
-    sub: "CS-MP",
-    teacher: "HK",
+    sub: "COM",
+    teacher: "MJ",
   },
   {
-    sub: "CS",
-    teacher: "JSH",
+    sub: "COM",
+    teacher: "BLK",
   },
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "COM",
+    teacher: "SHA",
   },
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "COM",
+    teacher: "ANS",
   },
 ];
 const fri = [
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "COM",
+    teacher: "RF",
   },
   {
-    sub: "CS-MP",
-    teacher: "JK",
+    sub: "COM",
+    teacher: "FSL",
   },
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "COM",
+    teacher: "MJ",
   },
   {
-    sub: "LAB Project",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "ANS",
   },
   {
-    sub: "LAB Project",
-    teacher: "AMR",
+    sub: "COM",
+    teacher: "FSL",
   },
 ];
 export default [mon, tue, thu, wed, fri];
