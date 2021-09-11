@@ -1,4 +1,4 @@
-import baenglish from "./baenglish";
+import baenglish from "./baEnglish";
 import bba from "./bba";
 import bcomCop from "./bcomCop";
 import bioChemistry from "./bioChemistry";
