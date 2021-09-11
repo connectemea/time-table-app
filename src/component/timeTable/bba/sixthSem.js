@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "JCK",
+    teacher: "",
   },
   {
-    sub: "CS-MP",
-    teacher: "JK",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-OS(Lab)",
-    teacher: "AMR",
+    sub: "AN",
+    teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-MP",
-    teacher: "JK",
+    sub: "JCK",
+    teacher: "",
   },
   {
-    sub: "CS-OS(Lab)",
-    teacher: "AMR",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "AN",
+    teacher: "",
   },
 ];
 const wed = [
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-OS",
-    teacher: "AMR",
+    sub: "AN",
+    teacher: "",
   },
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-AP(Lab)",
-    teacher: "JSH",
+    sub: "JCK",
+    teacher: "",
   },
 ];
 const thu = [
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS-MP",
-    teacher: "HK",
+    sub: "JCK",
+    teacher: "",
   },
   {
-    sub: "CS",
-    teacher: "JSH",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "AN",
+    teacher: "",
   },
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "MA",
+    teacher: "",
   },
 ];
 const fri = [
   {
-    sub: "CS-AP",
-    teacher: "JSH",
+    sub: "JCK",
+    teacher: "",
   },
   {
-    sub: "CS-MP",
-    teacher: "JK",
+    sub: "AN",
+    teacher: "",
   },
   {
-    sub: "CS-CN",
-    teacher: "HK",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "LAB Project",
-    teacher: "AMR",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "LAB Project",
-    teacher: "AMR",
+    sub: "AK",
+    teacher: "",
   },
 ];
 const week = [mon, tue, thu, wed, fri];

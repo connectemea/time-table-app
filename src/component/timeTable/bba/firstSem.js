@@ -1,7 +1,7 @@
 const mon = [
   {
     sub: "MAS-MTP",
-    teacher: "",
+    teacher: "JSK",
   },
   {
     sub: "E1",
@@ -9,7 +9,7 @@ const mon = [
   },
   {
     sub: "AN-ME",
-    teacher: "",
+    teacher: "AN",
   },
   {
     sub: "SL",
@@ -35,11 +35,11 @@ const tue = [
   },
   {
     sub: "AN-ME",
-    teacher: "",
+    teacher: "AN",
   },
   {
     sub: "SL",
-    teacher: "Vasheeda miss",
+    teacher: "",
   },
 ];
 const wed = [
@@ -61,7 +61,7 @@ const wed = [
   },
   {
     sub: "AN-ME",
-    teacher: "",
+    teacher: "AN",
   },
 ];
 const thu = [
@@ -83,13 +83,13 @@ const thu = [
   },
   {
     sub: "AN-ME",
-    teacher: "V",
+    teacher: "",
   },
 ];
 const fri = [
   {
     sub: "E1",
-    teacher: "Vasheeda miss",
+    teacher: "",
   },
   {
     sub: "MAS-MTP",
