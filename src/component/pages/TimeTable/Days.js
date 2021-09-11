@@ -1,16 +1,22 @@
-
 import styles from "./styles.module.css";
-export default function Days() {
-    return(
-       <div className={styles.daysSection}>
+import { days } from "../../const/DateHelper";
+export default function Days(props) {
+  const { currentDay, handleDayChange } = props;
+  console.log(currentDay);
+  const Day = ({ name, day, currentDay }) => (
+    <p
+      className={currentDay === day ? styles.today : styles.day}
+      onClick={() => handleDayChange(day)}
+    >
+      {name.toUpperCase()}
+    </p>
+  );
 
-           <p className={styles.day}>MON</p>
-           <p className={styles.today}>TUE</p>
-           <p className={styles.day}>WED</p>
-           <p className={styles.day}>THU</p>
-           <p className={styles.day}>FRI</p>
-
-       </div>
-    )
+  return (
+    <div className={styles.daysSection}>
+      {days.map((day, ind) => (
+        <Day name={day.short} day={ind} currentDay={currentDay} />
+      ))}
+    </div>
+  );
 }
-

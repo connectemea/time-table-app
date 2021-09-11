@@ -1,7 +1,36 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import BrandName from "../images/TinkerHubLogo.png";
+import Departments from "../../const/Departments";
+import Semesters from "../../const/Semesters";
+import STORAGE_KEYS from "../../const/STORAGE_KEYS";
+import { useHistory } from "react-router";
 const Home = () => {
+  const [department, setDepartment] = useState("0");
+  const [semester, setSemester] = useState("0");
+  const history = useHistory();
+
+  const Option = ({ name, value }) => (
+    <option className={styles.selectOption} value={value}>
+      {name}
+    </option>
+  );
+  const handleShowTimeTable = () => {
+    localStorage.setItem(STORAGE_KEYS.SEMESTER, semester);
+    localStorage.setItem(STORAGE_KEYS.DEPARTMENT, department);
+    history.push("/timetable");
+  };
+
+  useEffect(() => {
+    if (
+      localStorage.getItem(STORAGE_KEYS.DEPARTMENT) !== "undefined" &&
+      localStorage.getItem(STORAGE_KEYS.SEMESTER) !== "undefined"
+    ) {
+      setDepartment(localStorage.getItem(STORAGE_KEYS.DEPARTMENT));
+      setSemester(localStorage.getItem(STORAGE_KEYS.SEMESTER));
+    }
+  }, []);
   return (
     <div className={styles.contentWrapper}>
       <div className={styles.titleSection}>
@@ -12,90 +41,35 @@ const Home = () => {
         <div className={styles.LoginBox}>
           <div className={styles.centerDiv}>
             <div className={styles.selectSection}>
-              <select className={styles.selectBox} id="dropdown">
-                <option
-                  className={styles.selectOption}
-                  value="Select Department"
-                >
-                  Select Department
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BSc Computer Science"
-                >
-                  BSc Computer Science
-                </option>
-                <option className={styles.selectOption} value="BA Economics">
-                  BA Economics
-                </option>
-                <option className={styles.selectOption} value="B.Com Cop">
-                  B.Com
-                </option>
-                <option className={styles.selectOption} value="BA English">
-                  BA English
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BSc Microbiology"
-                >
-                  BSc Microbiology
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BA West Asian Studies"
-                >
-                  BA West Asian Studies
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BSc Biotechnology"
-                >
-                  BSc Biotechnology
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BSc Biochemistry"
-                >
-                  BSc Biochemistry
-                </option>
-                <option className={styles.selectOption} value="BBA">
-                  BBA
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="B.Com Computer Application"
-                >
-                  B.Com Computer Application
-                </option>
-                <option className={styles.selectOption} value="BVoc Logistics">
-                  BVoc Logistics
-                </option>
-                <option
-                  className={styles.selectOption}
-                  value="BVoc Accounting and Taxation"
-                >
-                  BVoc Accounting and Taxation
-                </option>
+              <select
+                className={styles.selectBox}
+                id="dropdown"
+                onChange={(e) => setDepartment(e.target.value)}
+                value={department}
+              >
+                {Departments &&
+                  Departments.map((dep, ind) => (
+                    <Option name={dep.name} value={ind} />
+                  ))}
               </select>
             </div>
             <div className={styles.selectSection}>
-              <select className={styles.selectBox} id="dropdown">
-                <option className={styles.selectOption} value="Select Semester">
-                  Select Semester
-                </option>
-                <option className={styles.selectOption} value="1st Sem">
-                  1st Sem
-                </option>
-                <option className={styles.selectOption} value="2nd Sem">
-                  2nd Sem
-                </option>
-                <option className={styles.selectOption} value="3rd Sem">
-                  3rd Sem
-                </option>
+              <select
+                className={styles.selectBox}
+                id="dropdown"
+                onChange={(e) => setSemester(e.target.value)}
+                value={semester}
+              >
+                {Semesters &&
+                  Semesters.map((sem, ind) => (
+                    <Option value={ind} name={sem.name} />
+                  ))}
               </select>
             </div>
             <div className={styles.showBtn}>
-              <button className={styles.button}>Show Timetable</button>
+              <button className={styles.button} onClick={handleShowTimeTable}>
+                Show Timetable
+              </button>
             </div>
           </div>
         </div>
