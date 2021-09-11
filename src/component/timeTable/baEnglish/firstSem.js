@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "statistics",
-    teacher: "RS",
+    sub: "Introducing Literature",
+    teacher: "AR",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "ways with words",
+    teacher: "ABI",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "transaction",
+    teacher: "DEV",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "ways with words",
+    teacher: "ROY",
   },
   {
-    sub: "statistics",
-    teacher: "V",
+    sub: "introducing litrerature",
+    teacher: "JAL",
   },
 ];
 const tue = [
   {
-    sub: "English ",
+    sub: "politics",
     teacher: "",
   },
   {
-    sub: "CF&HTML",
-    teacher: "AMR",
+    sub: "transactions",
+    teacher: "IRF",
   },
   {
-    sub: "2nd Language",
+    sub: "politics",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "lang",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "ways with words",
+    teacher: "ABI",
   },
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "lang",
     teacher: "",
   },
   {
-    sub: "HTML Lab",
-    teacher: "AMR",
+    sub: "introducing litrerature",
+    teacher: "JAL",
   },
   {
-    sub: "HTML Lab",
-    teacher: "AMR",
+    sub: "ways with words",
+    teacher: "ABI",
   },
   {
-    sub: "2nd Language",
+    sub: "politics",
     teacher: "",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "introducing litrerature",
+    teacher: "AR",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "politics",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "transactions",
+    teacher: "IRF",
+  },
+  {
+    sub: "transactions",
+    teacher: "DEV",
+  },
+  {
+    sub: "lang",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
+    sub: "politics",
     teacher: "",
-  },
-  {
-    sub: "Statistics",
-    teacher: "V",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "introducing litrerature",
+    teacher: "AR",
   },
   {
-    sub: "English",
+    sub: "politics",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "transactions",
+    teacher: "DEV",
+  },
+  {
+    sub: "lang",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "V",
-  },
-  {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "ways with words",
+    teacher: "ROY",
   },
 ];
 const week = [mon, tue, thu, wed, fri];
