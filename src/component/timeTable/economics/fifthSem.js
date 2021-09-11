@@ -1,7 +1,7 @@
 const mon = [
   {
     sub: "MATHEMATICAL ECO",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "CAPITAL MARKET",
@@ -35,7 +35,7 @@ const tue = [
   },
   {
     sub: "MATHEMATICAL ECO",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "INDIAN ECONOMY",
@@ -67,7 +67,7 @@ const wed = [
 const thu = [
   {
     sub: "MATHEMATICAL ECO",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "CAPITAL MARKET",
@@ -79,7 +79,7 @@ const thu = [
   },
   {
     sub: "MATHEMATICAL ECO",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "INDIAN ECONOMY",
@@ -89,7 +89,7 @@ const thu = [
 const fri = [
   {
     sub: "MATHEMATICAL ECO",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "CAPITAL MARKET",

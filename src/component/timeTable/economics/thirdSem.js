@@ -1,23 +1,23 @@
 const mon = [
   {
     sub: "ENG",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "QUANTITATIVE METHOD 1",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "LANG",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "POLITICS",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "QUANTITATIVE METHODS 1",
-    teacher: "RS",
+    teacher: "",
   },
 ];
 const tue = [
@@ -27,25 +27,25 @@ const tue = [
   },
   {
     sub: "LANG",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "QUANTITATIVE METHOD 1",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "POLITICS",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "POLITICS",
-    teacher: "RS",
+    teacher: "",
   },
 ];
 const wed = [
   {
     sub: "POLITICS",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "MICROECO 2",
@@ -53,25 +53,25 @@ const wed = [
   },
   {
     sub: "ENG",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "ENG",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "LANG",
-    teacher: "RS",
+    teacher: "",
   },
 ];
 const thu = [
   {
     sub: "ENG",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "QUANTITATIVE METHOD 1",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "MICOECO 2",
@@ -79,17 +79,17 @@ const thu = [
   },
   {
     sub: "POLITICS",
-    teacher: "RS",
+    teacher: "",
   },
   {
     sub: "LANG",
-    teacher: "RS",
+    teacher: "",
   },
 ];
 const fri = [
   {
     sub: "LANG",
-    teacher: "Vasheeda miss",
+    teacher: "",
   },
   {
     sub: "MICROECO 2",
