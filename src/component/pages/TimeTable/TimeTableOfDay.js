@@ -1,23 +1,24 @@
 import React from "react";
 import styles from "./styles.module.css";
+import periodTime from "../../const/PeriodTime";
 
 function TimeTableOfDay(props) {
-  const { tableData } = props;
+  const { today, tableData } = props;
   const HourCard = (props) => {
-    const { hour } = props;
+    const { hour, time } = props;
     return (
       <div className={styles.card}>
         <h1 className={styles.Period}>{hour.sub}</h1>
-        <h2 className={styles.Teacher}>demo teacher</h2>
+        <h2 className={styles.Teacher}>{hour.teacher}</h2>
         <br />
-        <p className={styles.Time}>{hour.time}</p>
+        <p className={styles.Time}>{periodTime[today][time]}</p>
       </div>
     );
   };
   return (
     <div className={styles.CardContainer}>
-      {tableData.map((hour) => (
-        <HourCard hour={hour} />
+      {tableData && tableData.map((hour,ind) => (
+        <HourCard hour={hour} time={ind}/>
       ))}
     </div>
   );

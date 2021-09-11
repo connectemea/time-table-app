@@ -10,18 +10,18 @@ import computerScience from "./computerScience";
 import economics from "./economics";
 import microBioliogy from "./microBioliogy";
 import was from "./was";
-
-export default [
-  baenglish,
-  bba,
-  bcomCop,
-  bioChemistry,
+const departments =  [
+  computerScience,
+  microBioliogy,
   bioTechnology,
+  bioChemistry,
+  economics,
+  baenglish,
+  was,
+  computerApplication,
+  bcomCop,
+  bba,
   bvocLogistics,
   bvocProfessionalAccounting,
-  computerApplication,
-  computerScience,
-  economics,
-  microBioliogy,
-  was,
-];
+]
+export default departments;

@@ -10,13 +10,13 @@ const months = [
   "SEP",
   "OCT",
   "NOV",
-  "DEC"
+  "DEC",
 ];
 const days = [
   { short: "mon", full: "Monday" },
   { short: "tue", full: "Tuesday" },
   { short: "wed", full: "Wednesday" },
   { short: "thu", full: "Thursday" },
-  { short: "fri", full: "Friday" }
+  { short: "fri", full: "Friday" },
 ];
 export { months, days };

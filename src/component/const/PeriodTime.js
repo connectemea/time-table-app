@@ -12,4 +12,5 @@ const special = [
   "11:00AM - 11:40AM",
   "11:45AM - 12:15PM"
 ];
-export default [common, common, common, common, special];
+const periodTime = [common, common, common, common, special]
+export default periodTime;

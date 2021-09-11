@@ -4,4 +4,5 @@ import thirdSem from "./thirdSem";
 import fourthSem from "./fourthSem";
 import fifthSem from "./fifthSem";
 import sixthSem from "./sixthSem";
-export default [firstSem, secondSem, thirdSem, fourthSem, fifthSem, sixthSem];
+const dep = [firstSem, secondSem, thirdSem, fourthSem, fifthSem, sixthSem]
+export default dep;
