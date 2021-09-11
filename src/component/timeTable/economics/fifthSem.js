@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "PHP",
+    sub: "MATHEMATICAL ECO",
     teacher: "RS",
   },
   {
-    sub: "CO",
-    teacher: "RS",
+    sub: "CAPITAL MARKET",
+    teacher: "HV",
   },
   {
-    sub: "OC",
-    teacher: "RS",
+    sub: "ECO IN EVERYDAY LIFE",
+    teacher: "PMR",
   },
   {
-    sub: "PHP Lab",
-    teacher: "RS",
+    sub: "FISCAL ECO",
+    teacher: "PMN",
   },
   {
-    sub: "PHP Lab",
-    teacher: "RS",
+    sub: "INDIAN ECONOMY",
+    teacher: "TVN",
   },
 ];
 const tue = [
   {
-    sub: "PHP",
+    sub: "CAPITAL MARKET",
+    teacher: "HV",
+  },
+  {
+    sub: "FISCAL ECO",
+    teacher: "PMN",
+  },
+  {
+    sub: "ECO IN EVERYDAY LIFE",
+    teacher: "PMR",
+  },
+  {
+    sub: "MATHEMATICAL ECO",
     teacher: "RS",
   },
   {
-    sub: "SE",
-    teacher: "RS",
-  },
-  {
-    sub: "OC",
-    teacher: "RS",
-  },
-  {
-    sub: "CO",
-    teacher: "RS",
-  },
-  {
-    sub: "Java Lab",
-    teacher: "RS",
+    sub: "INDIAN ECONOMY",
+    teacher: "TVN",
   },
 ];
 const wed = [
   {
-    sub: "PHP",
-    teacher: "RS",
+    sub: "INDIAN ECONOMY",
+    teacher: "TVN",
   },
   {
-    sub: "Java",
-    teacher: "RS",
+    sub: "FISCAL ECO",
+    teacher: "PMN",
   },
   {
-    sub: "OC",
-    teacher: "RS",
+    sub: "ECO IN EVERYDAY LIFE",
+    teacher: "PMR",
   },
   {
-    sub: "PHP Lab",
-    teacher: "RS",
+    sub: "INDIAN ECONOMY",
+    teacher: "TVN",
   },
   {
-    sub: "SE",
-    teacher: "RS",
+    sub: "CAPITAL MARKET",
+    teacher: "HV",
   },
 ];
 const thu = [
   {
-    sub: "CO",
+    sub: "MATHEMATICAL ECO",
     teacher: "RS",
   },
   {
-    sub: "SE",
+    sub: "CAPITAL MARKET",
+    teacher: "HV",
+  },
+  {
+    sub: "FISCAL ECO",
+    teacher: "PMN",
+  },
+  {
+    sub: "MATHEMATICAL ECO",
     teacher: "RS",
   },
   {
-    sub: "Java",
-    teacher: "RS",
-  },
-  {
-    sub: "Java Lab",
-    teacher: "RS",
-  },
-  {
-    sub: "Java Lab",
-    teacher: "RS",
+    sub: "INDIAN ECONOMY",
+    teacher: "TVN",
   },
 ];
 const fri = [
   {
-    sub: "SE",
+    sub: "MATHEMATICAL ECO",
     teacher: "RS",
   },
   {
-    sub: "Java",
-    teacher: "RS",
+    sub: "CAPITAL MARKET",
+    teacher: "HV",
   },
   {
-    sub: "CO",
-    teacher: "RS",
+    sub: "INDIAN ECONOMY",
+    teacher: "TVN",
   },
   {
-    sub: "Project Lab",
-    teacher: "RS",
+    sub: "FISCAL ECO",
+    teacher: "PMN",
   },
   {
-    sub: "Project Lab",
-    teacher: "RS",
+    sub: "FISCAL ECO",
+    teacher: "PMN",
   },
 ];
 const week = [mon, tue, thu, wed, fri];

@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "Python",
+    sub: "ENG",
     teacher: "RS",
   },
   {
-    sub: "Maths",
+    sub: "QUANTITATIVE METHOD 1",
     teacher: "RS",
   },
   {
-    sub: "S&T",
+    sub: "LANG",
     teacher: "RS",
   },
   {
-    sub: "DS",
+    sub: "POLITICS",
     teacher: "RS",
   },
   {
-    sub: "Statistics",
+    sub: "QUANTITATIVE METHODS 1",
     teacher: "RS",
   },
 ];
 const tue = [
   {
-    sub: "Maths",
+    sub: "MICROECO 2",
+    teacher: "PMR",
+  },
+  {
+    sub: "LANG",
     teacher: "RS",
   },
   {
-    sub: "DS Lab",
+    sub: "QUANTITATIVE METHOD 1",
     teacher: "RS",
   },
   {
-    sub: "DS Lab",
+    sub: "POLITICS",
     teacher: "RS",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
-  },
-  {
-    sub: "Python",
+    sub: "POLITICS",
     teacher: "RS",
   },
 ];
 const wed = [
   {
-    sub: "DS",
+    sub: "POLITICS",
     teacher: "RS",
   },
   {
-    sub: "Statistics",
+    sub: "MICROECO 2",
+    teacher: "PMR",
+  },
+  {
+    sub: "ENG",
     teacher: "RS",
   },
   {
-    sub: "Python",
+    sub: "ENG",
     teacher: "RS",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
-  },
-  {
-    sub: "S&T",
+    sub: "LANG",
     teacher: "RS",
   },
 ];
 const thu = [
   {
-    sub: "Statistics",
+    sub: "ENG",
     teacher: "RS",
   },
   {
-    sub: "DS Lab",
+    sub: "QUANTITATIVE METHOD 1",
     teacher: "RS",
   },
   {
-    sub: "DS Lab",
+    sub: "MICOECO 2",
+    teacher: "PMR",
+  },
+  {
+    sub: "POLITICS",
     teacher: "RS",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
-  },
-  {
-    sub: "S&T",
+    sub: "LANG",
     teacher: "RS",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
+    sub: "LANG",
     teacher: "Vasheeda miss",
   },
   {
-    sub: "English",
+    sub: "MICROECO 2",
+    teacher: "PMR",
+  },
+  {
+    sub: "QUANTITATIVE METHOD 1",
     teacher: "",
   },
   {
-    sub: "English",
-    teacher: "",
-  },
-  {
-    sub: "Statistics",
+    sub: "POLITICS",
     teacher: "V",
   },
   {
-    sub: "2nd Language",
+    sub: "ENG",
     teacher: "",
   },
 ];
