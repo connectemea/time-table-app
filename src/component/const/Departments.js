@@ -3,13 +3,13 @@ const Department = [
         name:"BSc computer science"
     },
     {
-        name:"BSc Micro bioliogy"
+        name:"Bsc Micro bioliogy"
     },
     {
-        name:"BSc Biochemstry"
+        name:"Bsc Biotechnology"
     },
     {
-        name:"BSc Biotechnology"
+        name:"Bsc Biochemistry"
     },
     {
         name:"BA Economics"
@@ -33,7 +33,7 @@ const Department = [
         name:"BVoc Logistics"
     },
     {
-        name:"BVoc Accounting And Taxation"
+        name:"BVoc Professional Accounting and Taxation"
     },
 ]
 export default Department;

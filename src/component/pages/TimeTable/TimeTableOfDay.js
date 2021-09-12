@@ -1,27 +1,27 @@
 import React from "react";
 import styles from "./styles.module.css";
+import periodTime from "../../const/PeriodTime";
 
-function TimeTableOfDay() {
+function TimeTableOfDay(props) {
+  const { today, tableData } = props;
+  const HourCard = (props) => {
+    const { hour, time } = props;
+    return (
+      <div className={styles.card}>
+        <h1 className={styles.Period}>{hour.sub}</h1>
+        <h2 className={styles.Teacher}>{hour.teacher}</h2>
+        <br />
+        <p className={styles.Time}>{periodTime[today][time]}</p>
+      </div>
+    );
+  };
   return (
     <div className={styles.CardContainer}>
-      <HourCard />
-      <HourCard />
-      <HourCard />
-      <HourCard />
-      <HourCard />
-
+      {tableData && tableData.map((hour,ind) => (
+        <HourCard hour={hour} time={ind}/>
+      ))}
     </div>
   );
 }
-const HourCard = () => {
-  return (
-    <div className={styles.card}>
-      <h1 className={styles.Period}>Period 1</h1>
-      <h2 className={styles.Teacher}>demo teacher</h2>
-      <br />
-      <p className={styles.Time}>09:00 to 09:40</p>
-    </div>
-  );
-};
 
 export default TimeTableOfDay;
