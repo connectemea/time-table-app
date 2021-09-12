@@ -1,36 +1,36 @@
 const mon = [
   {
-    sub: "Introducing Literature",
+    sub: "IL",
     teacher: "AR",
   },
   {
-    sub: "ways with words",
+    sub: "WWW",
     teacher: "ABI",
   },
   {
-    sub: "transaction",
+    sub: "TRAN",
     teacher: "DEV",
   },
   {
-    sub: "ways with words",
+    sub: "WWW",
     teacher: "ROY",
   },
   {
-    sub: "introducing litrerature",
+    sub: "IL",
     teacher: "JAL",
   },
 ];
 const tue = [
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "transactions",
+    sub: "TRAN",
     teacher: "IRF",
   },
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
   {
@@ -38,7 +38,7 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "ways with words",
+    sub: "WWW",
     teacher: "ABI",
   },
 ];
@@ -48,33 +48,33 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "introducing litrerature",
+    sub: "IL",
     teacher: "JAL",
   },
   {
-    sub: "ways with words",
+    sub: "WWW",
     teacher: "ABI",
   },
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "introducing litrerature",
+    sub: "IL",
     teacher: "AR",
   },
 ];
 const thu = [
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "transactions",
+    sub: "TRAN",
     teacher: "IRF",
   },
   {
-    sub: "transactions",
+    sub: "TRAN",
     teacher: "DEV",
   },
   {
@@ -82,21 +82,21 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
 ];
 const fri = [
   {
-    sub: "introducing litrerature",
+    sub: "IL",
     teacher: "AR",
   },
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "transactions",
+    sub: "TRAN",
     teacher: "DEV",
   },
   {
@@ -104,7 +104,7 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "ways with words",
+    sub: "WWW",
     teacher: "ROY",
   },
 ];
