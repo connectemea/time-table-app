@@ -12,11 +12,11 @@ const mon = [
     teacher: "RSK"
   },
   {
-    sub: "CS-DBMS",
+    sub: "DBMS",
     teacher: "HK"
   },
   {
-    sub: "CS-BAV",
+    sub: "BAV",
     teacher: "JK"
   }
 ];
@@ -26,11 +26,11 @@ const tue = [
     teacher: "VSD"
   },
   {
-    sub: "CS-DS(Lab)",
+    sub: "DS(Lab)",
     teacher: "JK"
   },
   {
-    sub: "CS-RDBMS(Lab)",
+    sub: "RDBMS(Lab)",
     teacher: "HK",
   },
   {
@@ -44,7 +44,7 @@ const tue = [
 ];
 const wed = [
   {
-    sub: "CS-DBMS",
+    sub: "DBMS",
     teacher: "HK",
   },
   {
@@ -60,7 +60,7 @@ const wed = [
     teacher: "VSD",
   },
   {
-    sub: "CS-BAV",
+    sub: "BAV",
     teacher: "JK",
   },
 ];
@@ -70,25 +70,25 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "CS-DS(Lab)",
+    sub: "DS(Lab)",
     teacher: "JK",
   },
   {
-    sub: "CS-RDBMS(Lab)",
+    sub: "RDBMS(Lab)",
     teacher: "HK",
   },
   {
-    sub: "CS-Bav",
+    sub: "Bav",
     teacher: "JK",
   },
   {
-    sub: "CS-Bav",
+    sub: "Bav",
     teacher: "JK",
   },
 ];
 const fri = [
   {
-    sub: "CS-DBMS",
+    sub: "DBMS",
     teacher: "HK",
   },
   {

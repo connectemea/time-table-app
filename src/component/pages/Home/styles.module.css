@@ -121,6 +121,9 @@
 
 /* break points  */
 @media (max-width: 700px) {
+  .contentWrapper{
+    background-size:cover;
+  }
   .LoginBox {
     width: 75%;
   }
