@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "MATHEMATICAL ECO",
+    sub: "ME",
     teacher: "",
   },
   {
-    sub: "CAPITAL MARKET",
+    sub: "CM",
     teacher: "HV",
   },
   {
-    sub: "ECO IN EVERYDAY LIFE",
+    sub: "EEL",
     teacher: "PMR",
   },
   {
-    sub: "FISCAL ECO",
+    sub: "FE",
     teacher: "PMN",
   },
   {
-    sub: "INDIAN ECONOMY",
+    sub: "IE",
     teacher: "TVN",
   },
 ];
 const tue = [
   {
-    sub: "CAPITAL MARKET",
+    sub: "CM",
     teacher: "HV",
   },
   {
-    sub: "FISCAL ECO",
+    sub: "FE",
     teacher: "PMN",
   },
   {
-    sub: "ECO IN EVERYDAY LIFE",
+    sub: "EEL",
     teacher: "PMR",
   },
   {
-    sub: "MATHEMATICAL ECO",
+    sub: "ME",
     teacher: "",
   },
   {
-    sub: "INDIAN ECONOMY",
+    sub: "IE",
     teacher: "TVN",
   },
 ];
 const wed = [
   {
-    sub: "INDIAN ECONOMY",
+    sub: "IE",
     teacher: "TVN",
   },
   {
-    sub: "FISCAL ECO",
+    sub: "FE",
     teacher: "PMN",
   },
   {
-    sub: "ECO IN EVERYDAY LIFE",
+    sub: "EEL",
     teacher: "PMR",
   },
   {
-    sub: "INDIAN ECONOMY",
+    sub: "IE",
     teacher: "TVN",
   },
   {
-    sub: "CAPITAL MARKET",
+    sub: "CM",
     teacher: "HV",
   },
 ];
 const thu = [
   {
-    sub: "MATHEMATICAL ECO",
+    sub: "ME",
     teacher: "",
   },
   {
-    sub: "CAPITAL MARKET",
+    sub: "CM",
     teacher: "HV",
   },
   {
-    sub: "FISCAL ECO",
+    sub: "FE",
     teacher: "PMN",
   },
   {
-    sub: "MATHEMATICAL ECO",
+    sub: "ME",
     teacher: "",
   },
   {
-    sub: "INDIAN ECONOMY",
+    sub: "IE",
     teacher: "TVN",
   },
 ];
 const fri = [
   {
-    sub: "MATHEMATICAL ECO",
+    sub: "ME",
     teacher: "",
   },
   {
-    sub: "CAPITAL MARKET",
+    sub: "CM",
     teacher: "HV",
   },
   {
-    sub: "INDIAN ECONOMY",
+    sub: "IE",
     teacher: "TVN",
   },
   {
-    sub: "FISCAL ECO",
+    sub: "FE",
     teacher: "PMN",
   },
   {
-    sub: "FISCAL ECO",
+    sub: "FE",
     teacher: "PMN",
   },
 ];

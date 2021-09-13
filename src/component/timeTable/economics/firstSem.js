@@ -1,6 +1,6 @@
 const mon = [
   {
-    sub: "MicroEco 1",
+    sub: "ME 1",
     teacher: "PMN",
   },
   {
@@ -16,7 +16,7 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "MicroEco 1",
+    sub: "ME 1",
     teacher: "PMR",
   },
 ];
@@ -56,7 +56,7 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "MicroEco 1",
+    sub: "ME 1",
     teacher: "PMR",
   },
   {
@@ -66,7 +66,7 @@ const wed = [
 ];
 const thu = [
   {
-    sub: "MicroEco 1",
+    sub: "ME 1",
     teacher: "PMR",
   },
   {
@@ -92,11 +92,11 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "MicroEco 1",
+    sub: "ME 1",
     teacher: "PMN",
   },
   {
-    sub: "MicroEco 1",
+    sub: "ME 1",
     teacher: "HV",
   },
   {

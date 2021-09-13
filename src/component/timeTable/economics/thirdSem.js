@@ -4,7 +4,7 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "QUANTITATIVE METHOD 1",
+    sub: "QM 1",
     teacher: "",
   },
   {
@@ -12,17 +12,17 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "POLITICS",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "QUANTITATIVE METHODS 1",
+    sub: "QM 1",
     teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "MICROECO 2",
+    sub: "ME 2",
     teacher: "PMR",
   },
   {
@@ -30,25 +30,25 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "QUANTITATIVE METHOD 1",
+    sub: "QM 1",
     teacher: "",
   },
   {
-    sub: "POLITICS",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "POLITICS",
+    sub: "POLI",
     teacher: "",
   },
 ];
 const wed = [
   {
-    sub: "POLITICS",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "MICROECO 2",
+    sub: "ME 2",
     teacher: "PMR",
   },
   {
@@ -70,7 +70,7 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "QUANTITATIVE METHOD 1",
+    sub: "QM 1",
     teacher: "",
   },
   {
@@ -78,7 +78,7 @@ const thu = [
     teacher: "PMR",
   },
   {
-    sub: "POLITICS",
+    sub: "POLI",
     teacher: "",
   },
   {
@@ -92,15 +92,15 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "MICROECO 2",
+    sub: "ME 2",
     teacher: "PMR",
   },
   {
-    sub: "QUANTITATIVE METHOD 1",
+    sub: "QM 1",
     teacher: "",
   },
   {
-    sub: "POLITICS",
+    sub: "POLI",
     teacher: "V",
   },
   {

@@ -1,8 +1,10 @@
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
 /* universal style */
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* root dom style */

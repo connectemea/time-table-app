@@ -1,7 +1,7 @@
 const mon = [
   {
     sub: "MB",
-    teacher: "JPJ,
+    teacher: "JPJ",
   },
   {
     sub: "LANG",
@@ -88,7 +88,7 @@ const thu = [
 ];
 const fri = [
   {
-    sub: "MB,
+    sub: "MB",
     teacher: "JPJ",
   },
   {
