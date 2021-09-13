@@ -8,7 +8,7 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
@@ -22,7 +22,7 @@ const mon = [
 ];
 const tue = [
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
@@ -34,7 +34,7 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
@@ -44,11 +44,11 @@ const tue = [
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Stat",
+    sub: "STAT",
     teacher: "RSK",
   },
   {
@@ -60,7 +60,7 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
 ];
@@ -70,7 +70,7 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
@@ -78,11 +78,11 @@ const thu = [
     teacher: "KKR",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Statistics",
+    sub: "STAT",
     teacher: "RSK",
   },
 ];
@@ -92,15 +92,15 @@ const fri = [
     teacher: "JPJ",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Statistics",
+    sub: "STATI",
     teacher: "RSK",
   },
   {
