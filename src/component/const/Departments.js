@@ -35,5 +35,8 @@ const Department = [
     {
         name:"BVoc Professional Accounting and Taxation"
     },
+    {
+        name:"Bsc maths and physics"
+    }
 ]
 export default Department;

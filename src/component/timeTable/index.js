@@ -10,6 +10,7 @@ import computerScience from "./computerScience";
 import economics from "./economics";
 import microBioliogy from "./microBioliogy";
 import was from "./was";
+import physicsMaths from "./physicsMaths";
 const departments =  [
   computerScience,
   microBioliogy,
@@ -23,5 +24,6 @@ const departments =  [
   bba,
   bvocLogistics,
   bvocProfessionalAccounting,
+  physicsMaths
 ]
 export default departments;
