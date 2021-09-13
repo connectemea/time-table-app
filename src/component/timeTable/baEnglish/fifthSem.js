@@ -1,80 +1,80 @@
 const mon = [
   {
-    sub: "Litary and Theory",
+    sub: "LT",
     teacher: "JAL",
   },
   {
-    sub: "Indian Writing",
+    sub: "IW",
     teacher: "JTK",
   },
   {
-    sub: "Competitive examination",
+    sub: "CE",
     teacher: "AR",
   },
   {
-    sub: "Appreciating Drama and Theatre",
+    sub: "ADT",
     teacher: "ABI",
   },
   {
-    sub: "Language and Linguistics",
+    sub: "LL",
     teacher: "ROY",
   },
 ];
 const tue = [
   {
-    sub: "Indian Writing",
+    sub: "IW",
     teacher: "IRF",
   },
   {
-    sub: "Appreciating Drama and Theatre",
+    sub: "ADT",
     teacher: "ABI",
   },
   {
-    sub: "English for Competitive Examinations",
+    sub: "CE",
     teacher: "AR",
   },
   {
-    sub: "Indian Writing",
+    sub: "IW",
     teacher: "JTK",
   },
   {
-    sub: "Language and Linguistics",
+    sub: "LL",
     teacher: "ROY",
   },
 ];
 const wed = [
   {
-    sub: "Appreciating Drama and Theatre",
+    sub: "ADT",
     teacher: "ABI",
   },
   {
-    sub: "Language and Linguistics",
+    sub: "LL",
     teacher: "ROY",
   },
   {
-    sub: "English for Competitive Examinations",
+    sub: "CE",
     teacher: "AR",
   },
   {
-    sub: "Indian Writing",
+    sub: "IW",
     teacher: "IRF",
   },
   {
-    sub: "Literary and Theory",
+    sub: "LT",
     teacher: "JAL",
   },
 ];
 const thu = [
   {
-    sub: "Language and linguistics",
+    sub: "LL",
     teacher: "ROY",
   },
   {
-    sub: "Appreciating Drama and theatre",
+    sub: "ADT",
     teacher: "ABI",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "FAS",
   },
   {
@@ -82,13 +82,13 @@ const thu = [
     teacher: "ROY",
   },
   {
-    sub: "writing in english",
+    sub: "WE",
     teacher: "JTK",
   },
 ];
 const fri = [
   {
-    sub: "language and linguistics",
+    sub: "LL",
     teacher: "ROY",
   },
   {
@@ -96,15 +96,15 @@ const fri = [
     teacher: "ROY",
   },
   {
-    sub: "english",
+    sub: "ENG",
     teacher: "AR",
   },
   {
-    sub: "literary theory",
+    sub: "LT",
     teacher: "JAL",
   },
   {
-    sub: "appreciating drama and theatre",
+    sub: "ADT",
     teacher: "ABI",
   },
 ];

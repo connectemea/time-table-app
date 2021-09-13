@@ -1,10 +1,10 @@
 const mon = [
   {
-    sub: "statistics",
-    teacher: "RS",
+    sub: "BIOCHEM",
+    teacher: "Z",
   },
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
@@ -12,12 +12,12 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "MICRO BIO",
+    teacher: "",
   },
   {
-    sub: "statistics",
-    teacher: "V",
+    sub: "BIOCHEM",
+    teacher: "S",
   },
 ];
 const tue = [
@@ -26,11 +26,11 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "CF&HTML",
-    teacher: "AMR",
+    sub: "CHEM",
+    teacher: "",
   },
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
@@ -38,8 +38,8 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "MICRO BIO",
+    teacher: "",
   },
 ];
 const wed = [
@@ -48,15 +48,15 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "HTML Lab",
-    teacher: "AMR",
+    sub: "BIOCHEM",
+    teacher: "Z",
   },
   {
-    sub: "HTML Lab",
-    teacher: "AMR",
+    sub: "CHEM",
+    teacher: "",
   },
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
@@ -66,7 +66,7 @@ const wed = [
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
@@ -74,25 +74,21 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "CHEM",
+    teacher: "",
   },
   {
     sub: "English",
     teacher: "",
   },
   {
-    sub: "Statistics",
+    sub: "MICRO BIO",
     teacher: "V",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
+    sub: "MICRO BIO",
     teacher: "",
   },
   {
@@ -100,11 +96,15 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "V",
+    sub: "English",
+    teacher: "",
   },
   {
-    sub: "2nd Language",
+    sub: "BIOCHEM",
+    teacher: "S",
+  },
+  {
+    sub: "LANG",
     teacher: "",
   },
 ];

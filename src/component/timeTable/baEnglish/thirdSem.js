@@ -1,94 +1,94 @@
 const mon = [
   {
-    sub: "signatures",
+    sub: "SIGN",
     teacher: "IRF",
   },
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "lang",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "grammer and usage",
+    sub: "GU",
     teacher: "JAL",
   },
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "appreciating prose",
+    sub: "AP",
     teacher: "ROY",
   },
   {
-    sub: "lang",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "grammer and usage",
+    sub: "GU",
     teacher: "JAL",
   },
   {
-    sub: "signatures",
+    sub: "SIGN",
     teacher: "ROY",
   },
   {
-    sub: "politics",
+    sub: "POLI",
     teacher: "",
   },
 ];
 const wed = [
   {
-    sub: "appreciating prose",
+    sub: "AP",
     teacher: "ABI",
   },
   {
-    sub: "appreciating prose",
+    sub: "AP",
     teacher: "ROY",
   },
   {
-    sub: "signatures",
+    sub: "SIGN",
     teacher: "AR",
   },
   {
-    sub: "grammer and usage",
+    sub: "GU",
     teacher: "IRF",
   },
   {
-    sub: "lang",
+    sub: "LANG",
     teacher: "JAL",
   },
 ];
 const thu = [
   {
-    sub: "grammer and usage",
+    sub: "GU",
     teacher: "ROY",
   },
   {
-    sub: "grammer and usage",
+    sub: "GU",
     teacher: "ABI",
   },
   {
-    sub: "english",
+    sub: "ENG",
     teacher: "FAS",
   },
   {
-    sub: "english",
+    sub: "ENG",
     teacher: "ROY",
   },
   {
-    sub: "lang",
+    sub: "LANG",
     teacher: "JTK",
   },
 ];
 const fri = [
   {
-    sub: "lang",
+    sub: "LANG",
     teacher: "ROY",
   },
   {
@@ -100,11 +100,11 @@ const fri = [
     teacher: "AR",
   },
   {
-    sub: "literary theory",
+    sub: "LT",
     teacher: "JAL",
   },
   {
-    sub: "appreciating drama and theatre",
+    sub: "ADT",
     teacher: "ABI",
   },
 ];
