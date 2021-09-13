@@ -78,7 +78,7 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "PROJECT"
+    sub: "PROJECT",
     teacher: "",
   },
   {
