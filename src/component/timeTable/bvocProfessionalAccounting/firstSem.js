@@ -12,7 +12,7 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "ENGLISH",
+    sub: "ENG",
     teacher: "JJ",
   },
   {
@@ -38,7 +38,7 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "ENGLISH",
+    sub: "ENG",
     teacher: "DVJ",
   },
 ];
@@ -74,11 +74,11 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "ENGLISH",
+    sub: "ENG",
     teacher: "JJ",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "DVJ",
   },
   {
