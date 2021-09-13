@@ -12,17 +12,17 @@ const mon = [
     teacher: "SLN",
   },
   {
-    sub: "ENGLISH",
+    sub: "ENG",
     teacher: "JJ",
   },
   {
-    sub: "B. REGULATION",
+    sub: "B. REG",
     teacher: "SFQ",
   },
 ];
 const tue = [
   {
-    sub: "ORG BEHAVIOUR",
+    sub: "ORG BEHV",
     teacher: "ALF",
   },
   {
@@ -30,7 +30,7 @@ const tue = [
     teacher: "SFQ",
   },
   {
-    sub: "B. REGULATION",
+    sub: "B. REG",
     teacher: "SFQ",
   },
   {
@@ -38,13 +38,13 @@ const tue = [
     teacher: "SLN",
   },
   {
-    sub: "ENGLISH",
+    sub: "ENG",
     teacher: "DVJ",
   },
 ];
 const wed = [
   {
-    sub: "B. REGULATION",
+    sub: "B. REG",
     teacher: "SFQ",
   },
   {
@@ -52,11 +52,11 @@ const wed = [
     teacher: "SLN",
   },
   {
-    sub: "ORG BEHAVIOUR",
+    sub: "ORG BEHV",
     teacher: "ALF",
   },
   {
-    sub: "FINANCIAL ANLS",
+    sub: "FINA ANLS",
     teacher: "SLN",
   },
   {
@@ -70,11 +70,11 @@ const thu = [
     teacher: "SLN",
   },
   {
-    sub: "ORG BEHAVIOUR",
+    sub: "ORG BEHV",
     teacher: "ALF",
   },
   {
-    sub: "ENGLISH",
+    sub: "ENG",
     teacher: "JJ",
   },
   {
@@ -92,15 +92,15 @@ const fri = [
     teacher: "SFQ",
   },
   {
-    sub: "ORG BEHAVIOUR",
+    sub: "ORG BEHV",
     teacher: "ALF",
   },
   {
-    sub: "FINANCIAL ANLS",
+    sub: "FINA ANLS",
     teacher: "SFQ",
   },
   {
-    sub: "ENGLISH",
+    sub: "ENG",
     teacher: "DVJ",
   },
   {
