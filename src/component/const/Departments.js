@@ -1,6 +1,6 @@
 const Department = [
     {
-        name:"Bsc computer science"
+        name:"BSc computer science"
     },
     {
         name:"Bsc Micro bioliogy"

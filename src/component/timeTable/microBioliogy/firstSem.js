@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "microbiology",
-    teacher: "RS",
+    sub: "Ind.MB",
+    teacher: "JPJ",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "IMMUNOLOGY",
+    teacher: "SHT",
   },
   {
-    sub: "English",
-    teacher: "NAR",
+    sub: "OC",
+    teacher: "JPJ",
   },
   {
-    sub: "statistics",
-    teacher: "RKE",
+    sub: "MB LAB",
+    teacher: "JPJ & SHT",
   },
   {
-    sub: "biochemistry",
-    teacher: "KKR",
+    sub: "MB LAB",
+    teacher: "JPJ & SHT",
   },
 ];
 const tue = [
   {
-    sub: "English ",
-    teacher: "AR",
+    sub: "Med.MB",
+    teacher: "SHV",
   },
   {
-    sub: "Biochemistry",
-    teacher: "KKR",
+    sub: "IMMUNOLOGY",
+    teacher: "SHT",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "OC",
+    teacher: "JPJ",
   },
   {
-    sub: "English",
-    teacher: "NAR",
+    sub: "Med.MB",
+    teacher: "SHV",
   },
   {
-    sub: "statistics",
-    teacher: "RKE",
+    sub: "IMMUNOLOGY",
+    teacher: "SHT",
   },
 ];
 const wed = [
   {
-    sub: "English",
-    teacher: "NAR",
+    sub: "Ind.MB",
+    teacher: "JPJ",
   },
   {
-    sub: "Microbiology",
+    sub: "FOOD MB",
     teacher: "DUF",
   },
   {
-    sub: "Biochemistry",
-    teacher: "AMR",
+    sub: "PROJECT",
+    teacher: "JPJ & SHT",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "MB LAB",
+    teacher: "JPJ & SHT",
   },
   {
-    sub: "English",
-    teacher: "FAS",
+    sub: "MB LAB",
+    teacher: "JPJ & SHT",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "Med.MB",
+    teacher: "SHV",
   },
   {
-    sub: "English",
-    teacher: "AR",
+    sub: "FOOD MB",
+    teacher: "DUF",
   },
   {
-    sub: "Biochemistry",
-    teacher: "KKR",
+    sub: "IMMUNOLOGY",
+    teacher: "SHT",
   },
   {
-    sub: "English",
-    teacher: "LUB",
+    sub: "Ind.MB",
+    teacher: "JPJ",
   },
   {
-    sub: "Statistics",
-    teacher: "RKE",
+    sub: "Ind.MB",
+    teacher: "JPJ",
   },
 ];
 const fri = [
   {
-    sub: "Microbioliogy",
+    sub: "FOOD MB",
     teacher: "DUF",
   },
   {
-    sub: "English",
-    teacher: "AR",
+    sub: "FOOD MB",
+    teacher: "DUF",
   },
   {
-    sub: "English",
-    teacher: "LUB",
+    sub: "MB",
+    teacher: "SHV",
   },
   {
-    sub: "Statistics",
-    teacher: "RKE",
+    sub: "MB LAB",
+    teacher: "JPJ & SHT",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "MB LAB",
+    teacher: "JPJ & SHT",
   },
 ];
 const week = [mon, tue, thu, wed, fri];
