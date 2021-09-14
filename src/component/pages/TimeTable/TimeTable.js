@@ -6,14 +6,17 @@ import DayTimeLine from "./DayTimeLine";
 import TimeTableOfDay from "./TimeTableOfDay";
 import { months } from "../../const/DateHelper";
 import timeTable from "../../timeTable";
+import ErrorPage from "./ErrorPage";
 import STORAGE_KEYS from "../../const/STORAGE_KEYS";
+import Departments from "../../const/Departments";
+import Semesters from "../../const/Semesters";
 export default function TimeTable() {
   const getChangedDate = (changedDate) => {
     const date = new Date();
     date.setDate(
       date.getDate() +
-        (weekDayInd(date.getDay()) + changedDate) +
-        (date.getDay() > 5 ? 2 : 0)
+        (changedDate - weekDayInd(date.getDay())) +
+        (date.getDay() === 6 || date.getDay() === 0 ? 2 : 0)
     );
     return `${date.getDate() < 10 ? "0" + date.getDate() : date.getDate()} ${
       months[date.getMonth()]
@@ -42,13 +45,21 @@ export default function TimeTable() {
   return (
     <>
       <div className={styles.contentWrapper}>
-        <Header date={selectedDate} selectedDay={selectedDay} />
-        <Days currentDay={selectedDay} handleDayChange={handleDayChange} />
-        <DayTimeLine />
-        <TimeTableOfDay
-          today={selectedDay}
-          tableData={timeTable[dep][sem][selectedDay]}
-        />
+        {timeTable && timeTable[dep][sem][selectedDay][0] ? (
+          <>
+            <Header date={selectedDate} selectedDay={selectedDay} />
+            <Days currentDay={selectedDay} handleDayChange={handleDayChange} />
+            <DayTimeLine />
+            <TimeTableOfDay
+              today={selectedDay}
+              tableData={timeTable[dep][sem][selectedDay]}
+            />
+          </>
+        ) : (
+          <>
+            <ErrorPage sem={Semesters[sem].name} />
+          </>
+        )}
       </div>
     </>
   );
