@@ -4,7 +4,7 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "LOGI.MGT.",
+    sub: "LOGI MGT ",
     teacher: "",
   },
   {
@@ -16,17 +16,17 @@ const mon = [
     teacher: "JJ",
   },
   {
-    sub: "FUNDA.OF ACC",
+    sub: "FUNDA OF ACC",
     teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "FUNDA.OF ACC",
+    sub: "FUNDA OF ACC",
     teacher: "",
   },
   {
-    sub: "FUNDA.OF ACC",
+    sub: "FUNDA OF ACC",
     teacher: "",
   },
   {
@@ -34,7 +34,7 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "LOGI.MGT.",
+    sub: "LOGI MGT ",
     teacher: "",
   },
   {
@@ -52,11 +52,11 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "FUNDA.OF ACC",
+    sub: "FUNDA OF ACC",
     teacher: "",
   },
   {
-    sub: "LOGI.MGT.",
+    sub: "LOGI MGT ",
     teacher: "",
   },
   {
@@ -88,7 +88,7 @@ const thu = [
 ];
 const fri = [
   {
-    sub: "FUNDA.OF ACC",
+    sub: "FUNDA OF ACC",
     teacher: "",
   },
   {
@@ -96,7 +96,7 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "LOGISTICS MGT.",
+    sub: "LOGISTICS MGT ",
     teacher: "",
   },
   {

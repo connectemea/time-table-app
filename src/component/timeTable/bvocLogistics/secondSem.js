@@ -4,11 +4,11 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "DOM LOGI MGT.",
+    sub: "DOM LOGI MGT ",
     teacher: "",
   },
   {
-    sub: "TRANS & DIS MGT.",
+    sub: "TRANS & DIS MGT",
     teacher: "ASF",
   },
   {
@@ -16,13 +16,13 @@ const mon = [
     teacher: "JJ",
   },
   {
-    sub: "PRINC.OF MGT.",
+    sub: "PRINC OF MGT ",
     teacher: "AV",
   },
 ];
 const tue = [
   {
-    sub: "TRANS & DIS MGT.",
+    sub: "TRANS & DIS MGT ",
     teacher: "ASF",
   },
   {
@@ -30,11 +30,11 @@ const tue = [
     teacher: "SLN",
   },
   {
-    sub: "WAREHOUSE MGT.",
+    sub: "WAREHOUSE MGT ",
     teacher: "",
   },
   {
-    sub: "DOM LOGI MGT.",
+    sub: "DOM LOGI MGT ",
     teacher: "",
   },
   {
@@ -44,15 +44,15 @@ const tue = [
 ];
 const wed = [
   {
-    sub: "WAREHOUSE MGT.",
+    sub: "WAREHOUSE MGT ",
     teacher: "",
   },
   {
-    sub: "DOM LOGI MGT.",
+    sub: "DOM LOGI MGT ",
     teacher: "",
   },
   {
-    sub: "PRINC.OF MGT.",
+    sub: "PRINC OF MGT ",
     teacher: "",
   },
   {
@@ -60,13 +60,13 @@ const wed = [
     teacher: "ALF",
   },
   {
-    sub: "TRANS & DIS MGT.",
+    sub: "TRANS & DIS MGT ",
     teacher: "ASF",
   },
 ];
 const thu = [
   {
-    sub: "PRINC.OF MGT.",
+    sub: "PRINC OF MGT ",
     teacher: "",
   },
   {
@@ -78,17 +78,17 @@ const thu = [
     teacher: "JJ",
   },
   {
-    sub: "TRANS & DIS MGT.",
+    sub: "TRANS & DIS MGT ",
     teacher: "ASF",
   },
   {
-    sub: "WAREHOUSE MGT.",
+    sub: "WAREHOUSE MGT ",
     teacher: "",
   },
 ];
 const fri = [
   {
-    sub: "PRINC.OF MGT.",
+    sub: "PRINC OF MGT ",
     teacher: "",
   },
   {
@@ -96,7 +96,7 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "TRANS & DIS MGT.",
+    sub: "TRANS & DIS MGT ",
     teacher: "ASF",
   },
   {
@@ -104,7 +104,7 @@ const fri = [
     teacher: "DVJ",
   },
   {
-    sub: "WAREHOUSE MGT.",
+    sub: "WAREHOUSE MGT ",
     teacher: "",
   },
 ];

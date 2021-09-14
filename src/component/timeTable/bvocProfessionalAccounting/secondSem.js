@@ -8,7 +8,7 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "INTERNSHIP",
+    sub: "INTER",
     teacher: "SLN",
   },
   {
@@ -52,7 +52,7 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "INTERNSHIP",
+    sub: "INTER",
     teacher: "ALF",
   },
   {
