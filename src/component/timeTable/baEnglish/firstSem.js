@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "statistics",
-    teacher: "RS",
+    sub: "IL",
+    teacher: "AR",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "WWW",
+    teacher: "ABI",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "TRAN",
+    teacher: "DEV",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "WWW",
+    teacher: "ROY",
   },
   {
-    sub: "statistics",
-    teacher: "V",
+    sub: "IL",
+    teacher: "JAL",
   },
 ];
 const tue = [
   {
-    sub: "English ",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "CF&HTML",
-    teacher: "AMR",
+    sub: "TRAN",
+    teacher: "IRF",
   },
   {
-    sub: "2nd Language",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "lang",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "WWW",
+    teacher: "ABI",
   },
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "lang",
     teacher: "",
   },
   {
-    sub: "HTML Lab",
-    teacher: "AMR",
+    sub: "IL",
+    teacher: "JAL",
   },
   {
-    sub: "HTML Lab",
-    teacher: "AMR",
+    sub: "WWW",
+    teacher: "ABI",
   },
   {
-    sub: "2nd Language",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "IL",
+    teacher: "AR",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "TRAN",
+    teacher: "IRF",
+  },
+  {
+    sub: "TRAN",
+    teacher: "DEV",
+  },
+  {
+    sub: "lang",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
+    sub: "POLI",
     teacher: "",
-  },
-  {
-    sub: "Statistics",
-    teacher: "V",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "IL",
+    teacher: "AR",
   },
   {
-    sub: "English",
+    sub: "POLI",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "TRAN",
+    teacher: "DEV",
+  },
+  {
+    sub: "lang",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "V",
-  },
-  {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "WWW",
+    teacher: "ROY",
   },
 ];
 const week = [mon, tue, thu, wed, fri];

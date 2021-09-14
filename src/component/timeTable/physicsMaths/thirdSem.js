@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "MA",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "AK",
+    sub: "PHY",
     teacher: "",
   },
   {
-    sub: "JCK",
+    sub: "PHY",
     teacher: "",
   },
   {
-    sub: "MA",
+    sub: "PHY LAB",
     teacher: "",
   },
   {
-    sub: "AN",
+    sub: "PHY LAB",
     teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "AK",
+    sub: "PHY",
     teacher: "",
   },
   {
-    sub: "MA",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "JCK",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "MA",
+    sub: "PHY",
     teacher: "",
   },
   {
-    sub: "AN",
+    sub: "MATHS",
     teacher: "",
   },
 ];
 const wed = [
   {
-    sub: "MA",
+    sub: "PHY LAB",
     teacher: "",
   },
   {
-    sub: "AN",
+    sub: "PHY LAB",
     teacher: "",
   },
   {
-    sub: "AK",
+    sub: "PHY",
     teacher: "",
   },
   {
-    sub: "MA",
+    sub: "PHY",
     teacher: "",
   },
   {
-    sub: "JCK",
+    sub: "PHY",
     teacher: "",
   },
 ];
 const thu = [
   {
-    sub: "AK",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "JCK",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "MA",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "AN",
+    sub: "PHY",
     teacher: "",
   },
   {
-    sub: "MA",
+    sub: "MATHS",
     teacher: "",
   },
 ];
 const fri = [
   {
-    sub: "JCK",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "AN",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "MA",
+    sub: "MATHS",
     teacher: "",
   },
   {
-    sub: "MA",
+    sub: "PHY",
     teacher: "",
   },
   {
-    sub: "AK",
+    sub: "MATHS",
     teacher: "",
   },
 ];

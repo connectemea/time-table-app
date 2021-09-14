@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "statistics",
-    teacher: "RS",
+    sub: "MAS-MTP",
+    teacher: "JSK",
   },
   {
-    sub: "2nd Language",
+    sub: "E1",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "AN-ME",
+    teacher: "AN",
+  },
+  {
+    sub: "SL",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "statistics",
-    teacher: "V",
+    sub: "E2",
+    teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "English ",
+    sub: "MAS-MTP ",
     teacher: "",
   },
   {
-    sub: "CF&HTML",
-    teacher: "AMR",
-  },
-  {
-    sub: "2nd Language",
+    sub: "E1",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "E2",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "AN-ME",
+    teacher: "AN",
+  },
+  {
+    sub: "SL",
+    teacher: "",
   },
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "MAS-MTP",
     teacher: "",
   },
   {
-    sub: "HTML Lab",
+    sub: "SL",
     teacher: "AMR",
   },
   {
-    sub: "HTML Lab",
+    sub: "E1",
     teacher: "AMR",
   },
   {
-    sub: "2nd Language",
+    sub: "E2",
     teacher: "",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "AN-ME",
+    teacher: "AN",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "E2",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "MAS-MTP",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
+    sub: "SL",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "V",
+    sub: "E2",
+    teacher: "",
+  },
+  {
+    sub: "AN-ME",
+    teacher: "",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
+    sub: "E1",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "MAS-MTP",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "V",
+    sub: "SL",
+    teacher: "",
   },
   {
-    sub: "2nd Language",
+    sub: "MAS-MTP",
+    teacher: "",
+  },
+  {
+    sub: "AN-ME",
     teacher: "",
   },
 ];

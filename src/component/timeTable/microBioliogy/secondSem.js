@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "MB",
+    teacher: "JPJ",
   },
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "STAT",
+    teacher: "TAT",
   },
   {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "BC",
+    teacher: "KKR",
   },
 ];
 const tue = [
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "C",
-    teacher: "JK",
+    sub: "BC",
+    teacher: "KKR",
   },
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "MB",
+    teacher: "JPJ",
   },
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "C Lab",
-    teacher: "JK",
+    sub: "STAT",
+    teacher: "RSK",
   },
   {
-    sub: "C Lab",
-    teacher: "JK",
+    sub: "BC",
+    teacher: "KKR",
   },
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "BC",
+    teacher: "KKR",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "STAT",
+    teacher: "RSK",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "MB",
+    teacher: "JPJ",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "STATI",
+    teacher: "RSK",
   },
   {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
 ];

@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "statistics",
-    teacher: "RS",
-  },
-  {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "PT",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "OA",
+    teacher: "",
   },
   {
-    sub: "statistics",
-    teacher: "V",
+    sub: "ENG",
+    teacher: "JJ",
+  },
+  {
+    sub: "BM",
+    teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "English ",
+    sub: "BM",
     teacher: "",
   },
   {
-    sub: "CF&HTML",
-    teacher: "AMR",
-  },
-  {
-    sub: "2nd Language",
+    sub: "OA",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "BM",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "FA(LAB)",
+    teacher: "",
+  },
+  {
+    sub: "ENG",
+    teacher: "DVJ",
   },
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "BM",
     teacher: "",
   },
   {
-    sub: "HTML Lab",
-    teacher: "AMR",
-  },
-  {
-    sub: "HTML Lab",
-    teacher: "AMR",
-  },
-  {
-    sub: "2nd Language",
+    sub: "FA",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "BM",
+    teacher: "",
+  },
+  {
+    sub: "OA",
+    teacher: "",
+  },
+  {
+    sub: "PT",
     teacher: "",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "FA",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "ENG",
+    teacher: "JJ",
   },
   {
-    sub: "English",
+    sub: "ENG",
+    teacher: "DVJ",
+  },
+  {
+    sub: "FA",
     teacher: "",
-  },
-  {
-    sub: "Statistics",
-    teacher: "V",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
+    sub: "BM",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "Statistics",
+    sub: "OA",
+    teacher: "",
+  },
+  {
+    sub: "FA",
     teacher: "V",
   },
   {
-    sub: "2nd Language",
+    sub: "PT",
     teacher: "",
   },
 ];

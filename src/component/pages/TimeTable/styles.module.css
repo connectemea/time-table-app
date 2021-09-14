@@ -42,7 +42,7 @@
 }
 .heading {
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 .date {
   font-size: 2rem;
@@ -150,24 +150,24 @@
   box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   color: white;
-  border-radius: 8%;
+  border-radius: 15px;
   /* display: flex; */
   backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.1);
 }
 .Period {
-  font-family: Segoe UI;
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: 700;
   text-align: left;
+  text-transform: uppercase;
 }
 .Teacher {
-  font-family: Segoe UI;
   font-size: 1.9rem;
   font-style: normal;
   font-weight: 350;
   text-align: left;
+  text-transform: uppercase;
 }
 .Time {
   font-family: Segoe UI;
@@ -177,7 +177,63 @@
   text-align: left;
 }
 
+/* error page */
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.errSection {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background: linear-gradient(
+    152.97deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 3rem;
+}
+.errTitle {
+  font-size: 5rem;
+  font-family: monospace;
+  color: #c4c4c4;
+}
+.errDisc {
+  font-family: monospace;
+  font-size: 2.8rem;
+  color: white;
+  text-align: center;
+}
+.redirectBtn {
+  color: white;
+  padding: 10px 15px;
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight:600;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 30px;
+  border: none;
+  background: transparent;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.redirectBtn:hover {
+  box-shadow: inset 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
 @media screen and (max-width: 1025px) {
+  .contentWrapper {
+    background-size: cover;
+  }
   .header {
     padding-left: 0;
     height: 15%;
@@ -222,5 +278,9 @@
     height: calc(100% / 5 - 1rem);
     margin: 0;
     margin-bottom: 1rem;
+  }
+  .errSection {
+    width: 90%;
+    height: 35%;
   }
 }

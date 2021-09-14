@@ -4,34 +4,34 @@ const mon = [
     teacher: "SE",
   },
   {
-    sub: "Eng",
-    teacher: "Abi",
+    sub: "ENG",
+    teacher: "",
   },
   {
-    sub: "CA-Lab",
+    sub: "CA",
     teacher: "SE",
   },
   {
     sub: "Eng",
-    teacher: "Dev",
+    teacher: "",
   },
   {
-    sub: "His",
-    teacher: "Nu",
+    sub: "WAS",
+    teacher: "SHABNA",
   },
 ];
 const tue = [
   {
-    sub: "His",
-    teacher: "Sbn",
+    sub: "WAS",
+    teacher: "SHABNA",
   },
   {
     sub: "Eng",
-    teacher: "Fas",
+    teacher: "",
   },
   {
     sub: "Eng",
-    teacher: "Dev",
+    teacher: "",
   },
   {
     sub: "Lang",
@@ -39,7 +39,7 @@ const tue = [
   },
   {
     sub: "Eng",
-    teacher: "Rs",
+    teacher: "",
   },
 ];
 const wed = [
@@ -49,63 +49,63 @@ const wed = [
   },
   {
     sub: "Eng",
-    teacher: "Abi",
+    teacher: "",
   },
   {
-    sub: "CA-(LAB)",
-    teacher: "Se",
+    sub: "CA",
+    teacher: "SE",
   },
   {
-    sub: "His",
-    teacher: "Nu",
+    sub: "WAS",
+    teacher: "NIZAR",
   },
   {
-    sub: "His",
-    teacher: "Sbn",
+    sub: "WAS",
+    teacher: "SHABNA",
   },
 ];
 const thu = [
   {
-    sub: "CA-LAB",
-    teacher: "Se",
+    sub: "CA",
+    teacher: "SE",
   },
   {
-    sub: "CA-LAB",
-    teacher: "Se",
+    sub: "CA",
+    teacher: "SE",
   },
   {
-    sub: "Eng",
-    teacher: "Dev",
-  },
-  {
-    sub: "Lang",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "Eng",
-    teacher: "Fas",
+    sub: "LANG",
+    teacher: "",
+  },
+  {
+    sub: "WAS",
+    teacher: "NIZAR",
   },
 ];
 const fri = [
   {
-    sub: "Eng",
-    teacher: "Fas",
-  },
-  {
-    sub: "Ca",
-    teacher: "Se",
-  },
-  {
-    sub: "His",
-    teacher: "Sbn",
-  },
-  {
-    sub: "Lang",
+    sub: "ENG",
     teacher: "",
   },
   {
-    sub: "His",
-    teacher: "Ktf",
+    sub: "CA",
+    teacher: "SE",
+  },
+  {
+    sub: "WAS",
+    teacher: "NIZAR",
+  },
+  {
+    sub: "LANG",
+    teacher: "",
+  },
+  {
+    sub: "WAS",
+    teacher: "NIZAR",
   },
 ];
 const week = [mon, tue, thu, wed, fri];

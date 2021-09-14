@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "Statistics",
-    teacher: "RS",
-  },
-  {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "DT",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "INTER",
+    teacher: "SLN",
   },
   {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "ENG",
+    teacher: "JJ",
+  },
+  {
+    sub: "COST ACC",
+    teacher: "ALF",
   },
 ];
 const tue = [
   {
-    sub: "English",
+    sub: "COST ACC",
     teacher: "",
   },
   {
-    sub: "C",
-    teacher: "JK",
+    sub: "COST ACC",
+    teacher: "ALF",
   },
   {
-    sub: "2nd Language",
+    sub: "BNS",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "COST ACC",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "ENG",
+    teacher: "DVJ",
   },
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "BNS",
     teacher: "",
   },
   {
-    sub: "C Lab",
-    teacher: "JK",
-  },
-  {
-    sub: "C Lab",
-    teacher: "JK",
-  },
-  {
-    sub: "2nd Language",
+    sub: "DT",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "INTER",
+    teacher: "ALF",
+  },
+  {
+    sub: "DT",
+    teacher: "",
+  },
+  {
+    sub: "COST ACC(LAB)",
     teacher: "",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "BNS",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "ENG",
+    teacher: "JJ",
   },
   {
-    sub: "English",
+    sub: "COST ACC(LAB)",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "INTRNSHIP",
+    teacher: "SLN",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "COST ACC",
+    teacher: "ALF",
   },
   {
-    sub: "English",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "DT",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "ENG",
+    teacher: "DVJ",
   },
   {
-    sub: "2nd Language",
+    sub: "COST ACC(LAB)",
     teacher: "",
   },
 ];

@@ -1,15 +1,15 @@
 const Department = [
     {
-        name:"Bsc computer science"
+        name:"BSc Computer science"
     },
     {
-        name:"Bsc Micro bioliogy"
+        name:"BSc Microbiology"
     },
     {
-        name:"Bsc Biotechnology"
+        name:"BSc Biotechnology"
     },
     {
-        name:"Bsc Biochemistry"
+        name:"BSc Biochemistry"
     },
     {
         name:"BA Economics"
@@ -24,7 +24,7 @@ const Department = [
         name:"B.Com Computer Application"
     },
     {
-        name:"B.Com Cop"
+        name:"B.Com Co-op"
     },
     {
         name:"BBA"
@@ -35,5 +35,8 @@ const Department = [
     {
         name:"BVoc Professional Accounting and Taxation"
     },
+    {
+        name:"BSc Maths and Physics"
+    }
 ]
 export default Department;

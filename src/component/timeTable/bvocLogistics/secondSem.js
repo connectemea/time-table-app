@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "Statistics",
-    teacher: "RS",
-  },
-  {
-    sub: "2nd Language",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "DOM LOGI MGT ",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "TRANS & DIS MGT",
+    teacher: "ASF",
   },
   {
-    sub: "Statistics",
+    sub: "ENGLISH",
+    teacher: "JJ",
+  },
+  {
+    sub: "PRINC OF MGT ",
     teacher: "AV",
   },
 ];
 const tue = [
   {
-    sub: "English",
+    sub: "TRANS & DIS MGT ",
+    teacher: "ASF",
+  },
+  {
+    sub: "INTERNSHIP",
+    teacher: "SLN",
+  },
+  {
+    sub: "WAREHOUSE MGT ",
     teacher: "",
   },
   {
-    sub: "C",
-    teacher: "JK",
-  },
-  {
-    sub: "2nd Language",
+    sub: "DOM LOGI MGT ",
     teacher: "",
   },
   {
-    sub: "English",
-    teacher: "",
-  },
-  {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "ENGLISH",
+    teacher: "DVJ",
   },
 ];
 const wed = [
   {
-    sub: "English",
+    sub: "WAREHOUSE MGT ",
     teacher: "",
   },
   {
-    sub: "C Lab",
-    teacher: "JK",
-  },
-  {
-    sub: "C Lab",
-    teacher: "JK",
-  },
-  {
-    sub: "2nd Language",
+    sub: "DOM LOGI MGT ",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "PRINC OF MGT ",
     teacher: "",
+  },
+  {
+    sub: "INTERNSHIP",
+    teacher: "ALF",
+  },
+  {
+    sub: "TRANS & DIS MGT ",
+    teacher: "ASF",
   },
 ];
 const thu = [
   {
-    sub: "2nd Language",
+    sub: "PRINC OF MGT ",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "ENGLISH",
+    teacher: "JJ",
   },
   {
-    sub: "English",
+    sub: "TRANS & DIS MGT ",
+    teacher: "ASF",
+  },
+  {
+    sub: "WAREHOUSE MGT ",
     teacher: "",
-  },
-  {
-    sub: "Statistics",
-    teacher: "AV",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
+    sub: "PRINC OF MGT ",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "AV",
+    sub: "TRANS & DIS MGT ",
+    teacher: "ASF",
   },
   {
-    sub: "2nd Language",
+    sub: "ENGLISH",
+    teacher: "DVJ",
+  },
+  {
+    sub: "WAREHOUSE MGT ",
     teacher: "",
   },
 ];

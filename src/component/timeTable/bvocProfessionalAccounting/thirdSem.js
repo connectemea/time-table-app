@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "MGT. ACC",
+    teacher: "SFQ",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "DT",
+    teacher: "SLN",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "DT",
+    teacher: "SLN",
   },
   {
-    sub: "DS",
-    teacher: "RS",
+    sub: "ENG",
+    teacher: "JJ",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "B. REG",
+    teacher: "SFQ",
   },
 ];
 const tue = [
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "ORG BEHV",
+    teacher: "ALF",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "MGT. ACC",
+    teacher: "SFQ",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "B. REG",
+    teacher: "SFQ",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "DT",
+    teacher: "SLN",
   },
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "ENG",
+    teacher: "DVJ",
   },
 ];
 const wed = [
   {
-    sub: "DS",
-    teacher: "RS",
+    sub: "B. REG",
+    teacher: "SFQ",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "DT",
+    teacher: "SLN",
   },
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "ORG BEHV",
+    teacher: "ALF",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "FINA ANLS",
+    teacher: "SLN",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "MGT. ACC",
+    teacher: "SFQ",
   },
 ];
 const thu = [
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "DT",
+    teacher: "SLN",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "ORG BEHV",
+    teacher: "ALF",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "ENG",
+    teacher: "JJ",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "MGT. ACC",
+    teacher: "SFQ",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "DT",
+    teacher: "SLN",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "MGT. ACC",
+    teacher: "SFQ",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "ORG BEHV",
+    teacher: "ALF",
   },
   {
-    sub: "English",
-    teacher: "",
+    sub: "FINA ANLS",
+    teacher: "SFQ",
   },
   {
-    sub: "Statistics",
-    teacher: "V",
+    sub: "ENG",
+    teacher: "DVJ",
   },
   {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "DT(LAB)",
+    teacher: "SLN",
   },
 ];
 const week = [mon, tue, thu, wed, fri];

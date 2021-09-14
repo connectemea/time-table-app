@@ -1,111 +1,111 @@
 const mon = [
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "CHEM/MB (PRACT)",
+    teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "CHEM/MB (PRACT)",
+    teacher: "",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "BIODIVE",
+    teacher: "Z",
   },
   {
-    sub: "DS",
-    teacher: "RS",
+    sub: "BIOMOLE 2",
+    teacher: "R",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "MICRO BIO",
+    teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "TECHNI",
+    teacher: "S",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "BIOCHEM (PRACT)",
+    teacher: "S",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "BIOCHEM (PRACT)",
+    teacher: "S",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "BIODIVE",
+    teacher: "Z",
   },
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "RESEACH",
+    teacher: "R",
   },
 ];
 const wed = [
   {
-    sub: "DS",
-    teacher: "RS",
+    sub: "CHEM/MB (PRACT)",
+    teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "CHEM/MB (PRACT)",
+    teacher: "",
   },
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "BIODIVE",
+    teacher: "Z",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "CHEM",
+    teacher: "",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "RESEARCH",
+    teacher: "R",
   },
 ];
 const thu = [
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "BIOMOLE 2",
+    teacher: "R",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "CHEM",
+    teacher: "",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "RESEARCH",
+    teacher: "R",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "MICROBIO",
+    teacher: "",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "TECHNI",
+    teacher: "S",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
+    sub: "BIODIVE",
+    teacher: "Z",
   },
   {
-    sub: "English",
+    sub: "CHEM",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "RESEARCH",
+    teacher: "S",
+  },
+  {
+    sub: "MICROBIO",
     teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "V",
-  },
-  {
-    sub: "2nd Language",
-    teacher: "",
+    sub: "BIOMOLE 2",
+    teacher: "R",
   },
 ];
 const week = [mon, tue, thu, wed, fri];

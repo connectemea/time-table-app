@@ -2,7 +2,6 @@ import styles from "./styles.module.css";
 import { days } from "../../const/DateHelper";
 export default function Days(props) {
   const { currentDay, handleDayChange } = props;
-  console.log(currentDay);
   const Day = ({ name, day, currentDay }) => (
     <p
       className={currentDay === day ? styles.today : styles.day}

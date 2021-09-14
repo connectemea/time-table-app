@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "Maths",
-    teacher: "VSD"
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS",
-    teacher: "JSH"
+    sub: "AN",
+    teacher: "",
   },
   {
-    sub: "Stati",
-    teacher: "RSK"
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-DBMS",
-    teacher: "HK"
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS-BAV",
-    teacher: "JK"
-  }
+    sub: "JCK",
+    teacher: "",
+  },
 ];
 const tue = [
   {
-    sub: "Maths",
-    teacher: "VSD"
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS-DS(Lab)",
-    teacher: "JK"
+    sub: "JCK",
+    teacher: "",
   },
   {
-    sub: "CS-RDBMS(Lab)",
-    teacher: "HK",
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS",
-    teacher: "JSH",
+    sub: "AN",
+    teacher: "",
   },
   {
-    sub: "Stati",
-    teacher: "RSK",
+    sub: "AK",
+    teacher: "",
   },
 ];
 const wed = [
   {
-    sub: "CS-DBMS",
-    teacher: "HK",
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "VSD",
+    sub: "MA",
+    teacher: "",
   },
   {
-    sub: "CS",
-    teacher: "JSH",
+    sub: "AN",
+    teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "VSD",
+    sub: "JCK",
+    teacher: "",
   },
   {
-    sub: "CS-BAV",
-    teacher: "JK",
+    sub: "AK",
+    teacher: "",
   },
 ];
 const thu = [
   {
-    sub: "Stati",
+    sub: "MA",
     teacher: "",
   },
   {
-    sub: "CS-DS(Lab)",
-    teacher: "JK",
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS-RDBMS(Lab)",
-    teacher: "HK",
+    sub: "JCK",
+    teacher: "",
   },
   {
-    sub: "CS-Bav",
-    teacher: "JK",
+    sub: "AK",
+    teacher: "",
   },
   {
-    sub: "CS-Bav",
-    teacher: "JK",
+    sub: "AN",
+    teacher: "",
   },
 ];
 const fri = [
   {
-    sub: "CS-DBMS",
-    teacher: "HK",
-  },
-  {
-    sub: "CS",
-    teacher: "JSH",
-  },
-  {
-    sub: "Maths",
-    teacher: "VSD",
-  },
-  {
-    sub: "Stati",
+    sub: "AK",
     teacher: "",
   },
   {
-    sub: "Stati",
+    sub: "MA",
+    teacher: "",
+  },
+  {
+    sub: "JCK",
+    teacher: "",
+  },
+  {
+    sub: "AK",
+    teacher: "",
+  },
+  {
+    sub: "AN",
     teacher: "",
   },
 ];

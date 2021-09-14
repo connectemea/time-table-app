@@ -1,76 +1,76 @@
 const mon = [
   {
-    sub: "CS-CN",
+    sub: "CN",
     teacher: "HK",
   },
   {
-    sub: "CS-OS",
+    sub: "OS",
     teacher: "AMR",
   },
   {
-    sub: "CS-OS",
+    sub: "OS",
     teacher: "AMR",
   },
   {
-    sub: "CS-MP",
+    sub: "MP",
     teacher: "JK",
   },
   {
-    sub: "CS-OS(Lab)",
+    sub: "OS(Lab)",
     teacher: "AMR",
   },
 ];
 const tue = [
   {
-    sub: "CS-CN",
+    sub: "CN",
     teacher: "HK",
   },
   {
-    sub: "CS-AP",
+    sub: "AP",
     teacher: "JSH",
   },
   {
-    sub: "CS-MP",
+    sub: "MP",
     teacher: "JK",
   },
   {
-    sub: "CS-OS(Lab)",
+    sub: "OS(Lab)",
     teacher: "AMR",
   },
   {
-    sub: "CS-OS",
+    sub: "OS",
     teacher: "AMR",
   },
 ];
 const wed = [
   {
-    sub: "CS-OS",
+    sub: "OS",
     teacher: "AMR",
   },
   {
-    sub: "CS-OS",
+    sub: "OS",
     teacher: "AMR",
   },
   {
-    sub: "CS-CN",
+    sub: "CN",
     teacher: "HK",
   },
   {
-    sub: "CS-AP",
+    sub: "AP",
     teacher: "JSH",
   },
   {
-    sub: "CS-AP(Lab)",
+    sub: "AP(Lab)",
     teacher: "JSH",
   },
 ];
 const thu = [
   {
-    sub: "CS-CN",
+    sub: "CN",
     teacher: "HK",
   },
   {
-    sub: "CS-MP",
+    sub: "MP",
     teacher: "HK",
   },
   {
@@ -78,33 +78,33 @@ const thu = [
     teacher: "JSH",
   },
   {
-    sub: "CS-AP",
+    sub: "AP",
     teacher: "JSH",
   },
   {
-    sub: "CS-AP",
+    sub: "AP",
     teacher: "JSH",
   },
 ];
 const fri = [
   {
-    sub: "CS-AP",
+    sub: "AP",
     teacher: "JSH",
   },
   {
-    sub: "CS-MP",
+    sub: "MP",
     teacher: "JK",
   },
   {
-    sub: "CS-CN",
+    sub: "CN",
     teacher: "HK",
   },
   {
-    sub: "LAB Project",
+    sub: "LAB PROJ",
     teacher: "AMR",
   },
   {
-    sub: "LAB Project",
+    sub: "LAB PROJ",
     teacher: "AMR",
   },
 ];

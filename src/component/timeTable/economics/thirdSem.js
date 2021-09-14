@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "ENG",
+    teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "QM 1",
+    teacher: "",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "LANG",
+    teacher: "",
   },
   {
-    sub: "DS",
-    teacher: "RS",
+    sub: "POLI",
+    teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "QM 1",
+    teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "ME 2",
+    teacher: "PMR",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "LANG",
+    teacher: "",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "QM 1",
+    teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "POLI",
+    teacher: "",
   },
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "POLI",
+    teacher: "",
   },
 ];
 const wed = [
   {
-    sub: "DS",
-    teacher: "RS",
+    sub: "POLI",
+    teacher: "",
   },
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "ME 2",
+    teacher: "PMR",
   },
   {
-    sub: "Python",
-    teacher: "RS",
+    sub: "ENG",
+    teacher: "",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "ENG",
+    teacher: "",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "LANG",
+    teacher: "",
   },
 ];
 const thu = [
   {
-    sub: "Statistics",
-    teacher: "RS",
+    sub: "ENG",
+    teacher: "",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "QM 1",
+    teacher: "",
   },
   {
-    sub: "DS Lab",
-    teacher: "RS",
+    sub: "MICOECO 2",
+    teacher: "PMR",
   },
   {
-    sub: "Maths",
-    teacher: "RS",
+    sub: "POLI",
+    teacher: "",
   },
   {
-    sub: "S&T",
-    teacher: "RS",
+    sub: "LANG",
+    teacher: "",
   },
 ];
 const fri = [
   {
-    sub: "Maths",
-    teacher: "Vasheeda miss",
-  },
-  {
-    sub: "English",
+    sub: "LANG",
     teacher: "",
   },
   {
-    sub: "English",
+    sub: "ME 2",
+    teacher: "PMR",
+  },
+  {
+    sub: "QM 1",
     teacher: "",
   },
   {
-    sub: "Statistics",
+    sub: "POLI",
     teacher: "V",
   },
   {
-    sub: "2nd Language",
+    sub: "ENG",
     teacher: "",
   },
 ];
