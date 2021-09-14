@@ -1,18 +1,18 @@
 const mon = [
   {
-    sub: "CHEM/MB(PRACT)",
+    sub: "CHEM/MB (PRACT)",
     teacher: "",
   },
   {
-    sub: "CHEM/MB(PRACT)",
+    sub: "CHEM/MB (PRACT)",
     teacher: "",
   },
   {
-    sub: "BIODIVERSITY",
+    sub: "BIODIVE",
     teacher: "Z",
   },
   {
-    sub: "BIOMOLECULES 2nd",
+    sub: "BIOMOLE 2",
     teacher: "R",
   },
   {
@@ -22,19 +22,19 @@ const mon = [
 ];
 const tue = [
   {
-    sub: "TECHNIQUES",
+    sub: "TECHNI",
     teacher: "S",
   },
   {
-    sub: "BIOCHEM(PRACT)",
+    sub: "BIOCHEM (PRACT)",
     teacher: "S",
   },
   {
-    sub: "BIOCHEM(PRACT)",
+    sub: "BIOCHEM (PRACT)",
     teacher: "S",
   },
   {
-    sub: "BIODIVERSITY",
+    sub: "BIODIVE",
     teacher: "Z",
   },
   {
@@ -44,15 +44,15 @@ const tue = [
 ];
 const wed = [
   {
-    sub: "CHEM/MB(PRACT)",
+    sub: "CHEM/MB (PRACT)",
     teacher: "",
   },
   {
-    sub: "CHEM/MB(PRACT)",
+    sub: "CHEM/MB (PRACT)",
     teacher: "",
   },
   {
-    sub: "BIODIVERSITY",
+    sub: "BIODIVE",
     teacher: "Z",
   },
   {
@@ -66,7 +66,7 @@ const wed = [
 ];
 const thu = [
   {
-    sub: "BIOMOLECULES 2ND",
+    sub: "BIOMOLE 2",
     teacher: "R",
   },
   {
@@ -82,13 +82,13 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "TECHNIQUES",
+    sub: "TECHNI",
     teacher: "S",
   },
 ];
 const fri = [
   {
-    sub: "BIODIVERSITY",
+    sub: "BIODIVE",
     teacher: "Z",
   },
   {
@@ -104,7 +104,7 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "BIOMOLECULES 2ND",
+    sub: "BIOMOLE 2",
     teacher: "R",
   },
 ];
