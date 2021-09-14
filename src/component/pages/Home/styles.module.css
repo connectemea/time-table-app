@@ -23,7 +23,6 @@
 
 .subTitle {
   font-size: 1.8rem;
-  font-family: -webkit-body;
   color: #d1d1d1;
 }
 
@@ -31,7 +30,6 @@
 .bottomTitle {
   display: flex;
   font-size: 1.8rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: aliceblue;
   position: fixed;
   bottom: 10px;

@@ -1,9 +1,14 @@
 /* universal style */
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(SegoeUI.ttf);
+}
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing:1px;
 }
 
 /* root dom style */
