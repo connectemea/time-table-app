@@ -8,7 +8,6 @@ import { months } from "../../const/DateHelper";
 import timeTable from "../../timeTable";
 import ErrorPage from "./ErrorPage";
 import STORAGE_KEYS from "../../const/STORAGE_KEYS";
-import Departments from "../../const/Departments";
 import Semesters from "../../const/Semesters";
 export default function TimeTable() {
   const getChangedDate = (changedDate) => {
