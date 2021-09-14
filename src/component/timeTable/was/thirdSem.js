@@ -22,7 +22,7 @@ const mon = [
 ];
 const tue = [
   {
-    sub: "INFORMATICS",
+    sub: "INFO",
     teacher: "MS",  
   },
   {
@@ -48,7 +48,7 @@ const wed = [
     teacher: "NU",
   },
   {
-    sub: "INFORMATICS",
+    sub: "INFO",
     teacher: "MS",  
   },
   {
@@ -96,11 +96,11 @@ const fri = [
     teacher: "NU",
   },
   {
-    sub: "INFORMATICS",
+    sub: "INFO",
     teacher: "KTF",  
   },
   {
-    sub: "INFORMATICS",
+    sub: "INFO",
     teacher: "MS",  
   },
   {
