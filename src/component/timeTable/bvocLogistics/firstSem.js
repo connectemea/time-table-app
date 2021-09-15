@@ -96,7 +96,7 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "LOGISTICS MGT ",
+    sub: "LOGI MGT ",
     teacher: "",
   },
   {
