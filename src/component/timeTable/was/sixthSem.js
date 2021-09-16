@@ -27,7 +27,7 @@ const tue = [
     teacher: "Vct",
   },
   {
-    sub: "Sdk/HISTORY",
+    sub: "Sdk/HIST",
     teacher: "Ktf/Fav/Pmh",
   },
   {
