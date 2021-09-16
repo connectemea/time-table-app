@@ -9,7 +9,7 @@ export default function App() {
     <Router>
       <Switch>
         <PrivateRoute exact path="/" component={Home} />
-        <PrivateRoute exact path="/timetable/" component={TimeTable} />        
+        <PrivateRoute exact path="/timetable" component={TimeTable} />        
       </Switch>
     </Router>
   );
