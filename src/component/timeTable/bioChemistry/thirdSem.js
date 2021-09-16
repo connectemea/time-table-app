@@ -1,14 +1,14 @@
 const mon = [
   {
-    sub: "CHEM/MB (PRACT)",
+    sub: "CHEM/MB LAB",
     teacher: "",
   },
   {
-    sub: "CHEM/MB (PRACT)",
+    sub: "CHEM/MB LAB",
     teacher: "",
   },
   {
-    sub: "BIODIVE",
+    sub: "BIODIVERSITY",
     teacher: "Z",
   },
   {
@@ -26,15 +26,15 @@ const tue = [
     teacher: "S",
   },
   {
-    sub: "BIOCHEM (PRACT)",
+    sub: "BIOCHEM LAB",
     teacher: "S",
   },
   {
-    sub: "BIOCHEM (PRACT)",
+    sub: "BIOCHEM LAB",
     teacher: "S",
   },
   {
-    sub: "BIODIVE",
+    sub: "BIODIVERSITY",
     teacher: "Z",
   },
   {
@@ -44,15 +44,15 @@ const tue = [
 ];
 const wed = [
   {
-    sub: "CHEM/MB (PRACT)",
+    sub: "CHEM/MB LAB",
     teacher: "",
   },
   {
-    sub: "CHEM/MB (PRACT)",
+    sub: "CHEM/MB LAB",
     teacher: "",
   },
   {
-    sub: "BIODIVE",
+    sub: "BIODIVERSITY",
     teacher: "Z",
   },
   {
@@ -88,7 +88,7 @@ const thu = [
 ];
 const fri = [
   {
-    sub: "BIODIVE",
+    sub: "BIODIVERSITY",
     teacher: "Z",
   },
   {

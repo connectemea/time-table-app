@@ -4,7 +4,7 @@ const mon = [
     teacher: "RS",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "VCT",
   },
   {
@@ -12,17 +12,17 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "HIS",
+    sub: "HISTORY",
     teacher: "KTF",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMR",
   },
 ];
 const tue = [
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "HV",
   },
   {
@@ -30,25 +30,25 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMR",
   },
   {
-    sub: "HIS",
+    sub: "HISTORY",
     teacher: "NU",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "VCT",
   },
 ];
 const wed = [
   {
-    sub: "HIS",
+    sub: "HISTORY",
     teacher: "KTF",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "HV",
   },
   {
@@ -70,15 +70,15 @@ const thu = [
     teacher: "DEV",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "HV",
   },
   {
-    sub: "HIS",
+    sub: "HISTORY",
     teacher: "NU",
   },
   {
-    sub: "HIS",
+    sub: "HISTORY",
     teacher: "HV",
   },
   {
@@ -92,15 +92,15 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "VCT",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMN",
   },
   {
-    sub: "HIS",
+    sub: "HISTORY",
     teacher: "KTF",
   },
   {

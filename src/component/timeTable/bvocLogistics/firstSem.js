@@ -16,17 +16,17 @@ const mon = [
     teacher: "JJ",
   },
   {
-    sub: "FUNDA OF ACC",
+    sub: "ACCOUNTING",
     teacher: "",
   },
 ];
 const tue = [
   {
-    sub: "FUNDA OF ACC",
+    sub: "ACCOUNTING",
     teacher: "",
   },
   {
-    sub: "FUNDA OF ACC",
+    sub: "ACCOUNTING",
     teacher: "",
   },
   {
@@ -52,7 +52,7 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "FUNDA OF ACC",
+    sub: "ACCOUNTING",
     teacher: "",
   },
   {
@@ -60,7 +60,7 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "IT(LAB)",
+    sub: "IT LAB",
     teacher: "",
   },
 ];
@@ -82,13 +82,13 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "IT(LAB)",
+    sub: "IT LAB",
     teacher: "",
   },
 ];
 const fri = [
   {
-    sub: "FUNDA OF ACC",
+    sub: "ACCOUNTING",
     teacher: "",
   },
   {
@@ -104,7 +104,7 @@ const fri = [
     teacher: "DVJ",
   },
   {
-    sub: "IT(LAB)",
+    sub: "IT LAB",
     teacher: "",
   },
 ];

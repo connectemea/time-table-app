@@ -1,110 +1,110 @@
 const mon = [
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "HV",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "CI",
   },
 ];
 const tue = [
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "CI",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "HV",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
 ];
 const wed = [
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "CI",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "CI",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
 ];
 const thu = [
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "CI",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "CI",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
 ];
 const fri = [
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "VCT",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "PMR",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
   {
-    sub: "ECO",
+    sub: "ECONOMICS",
     teacher: "TVN",
   },
 ];

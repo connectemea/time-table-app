@@ -22,7 +22,7 @@ const mon = [
 ];
 const tue = [
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
@@ -30,7 +30,7 @@ const tue = [
     teacher: "IRF",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
@@ -56,7 +56,7 @@ const wed = [
     teacher: "ABI",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
@@ -66,7 +66,7 @@ const wed = [
 ];
 const thu = [
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
@@ -82,7 +82,7 @@ const thu = [
     teacher: "",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
 ];
@@ -92,7 +92,7 @@ const fri = [
     teacher: "AR",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {

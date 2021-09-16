@@ -12,7 +12,7 @@ const mon = [
     teacher: "",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
@@ -34,17 +34,17 @@ const tue = [
     teacher: "",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
 ];
 const wed = [
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
@@ -78,7 +78,7 @@ const thu = [
     teacher: "PMR",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
@@ -100,7 +100,7 @@ const fri = [
     teacher: "",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "V",
   },
   {
