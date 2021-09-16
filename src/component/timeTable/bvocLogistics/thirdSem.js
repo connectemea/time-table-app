@@ -8,7 +8,7 @@ const mon = [
     teacher: "SFQ",
   },
   {
-    sub: "P.OF LOGI.INFO.SYSTEM",
+    sub: "P L I S",
     teacher: "ALF",
   },
   {
@@ -26,7 +26,7 @@ const tue = [
     teacher: "SFQ",
   },
   {
-    sub: "P.OF LOGI.INFO.SYSTEM",
+    sub: "P L I S",
     teacher: "ALF",
   },
   {
@@ -34,7 +34,7 @@ const tue = [
     teacher: "SLN",
   },
   {
-    sub: "S&O FREIGHT LOGI.MGT.",
+    sub: "S&O F L M",
     teacher: "ALF",
   },
   {
@@ -48,7 +48,7 @@ const wed = [
     teacher: "SLN",
   },
   {
-    sub: "S&O FREIGHT LOGI.MGT",
+    sub: "S&O F L M",
     teacher: "ALF",
   },
   {
@@ -60,7 +60,7 @@ const wed = [
     teacher: "ALF",
   },
   {
-    sub: "P.OF LOGI.INFO.SYSTEM",
+    sub: "P L I S",
     teacher: "ALF",
   },
 ];
@@ -78,7 +78,7 @@ const thu = [
     teacher: "JJ",
   },
   {
-    sub: "S&O FREIGHT LOGI.MGT",
+    sub: "S&O F L M",
     teacher: "ALF",
   },
   {
@@ -88,7 +88,7 @@ const thu = [
 ];
 const fri = [
   {
-    sub: "P.OF LOGI.INFO.SYSTEM",
+    sub: "P L I S",
     teacher: "ALF",
   },
   {
