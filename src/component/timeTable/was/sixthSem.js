@@ -5,51 +5,51 @@ const mon = [
     teacher: "Ktf/Pmh",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Nu",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Nu",
   },
   {
-    sub: "Poli",
+    sub: "POLITICS",
     teacher: "Vct",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Ktf",
   },
 ];
 const tue = [
   {
-    sub: "Poli",
+    sub: "POLITICS",
     teacher: "Vct",
   },
   {
-    sub: "Sdk/His",
+    sub: "Sdk/HISTORY",
     teacher: "Ktf/Fav/Pmh",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Nu",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Ktf",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Nu",
   },
 ];
 const wed = [
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Sbn",
   },
   {
-    sub: "Poli",
+    sub: "POLITICS",
     teacher: "Vct",
   },
   {
@@ -57,11 +57,11 @@ const wed = [
     teacher: "Va/Nu/P/Mh",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Ktf",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Nu",
   },
 ];
@@ -71,19 +71,19 @@ const thu = [
     teacher: "Nu/Pmh",
   },
   {
-    sub: "Poli",
+    sub: "POLITICS",
     teacher: "Vct",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "sbn",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "sbn",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "sbn",
   },
 ];
@@ -93,19 +93,19 @@ const fri = [
     teacher: "Fav/Pmh",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Nu",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Ktf",
   },
   {
-    sub: "His",
+    sub: "HISTORY",
     teacher: "Nu",
   },
   {
-    sub: "Poli",
+    sub: "POLITICS",
     teacher: "Vct",
   },
 ];
