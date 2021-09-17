@@ -4,7 +4,7 @@ const mon = [
     teacher: "RS",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "VCT",
   },
   {
@@ -16,7 +16,7 @@ const mon = [
     teacher: "FAS",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "VCT",
   },
 ];
@@ -38,7 +38,7 @@ const tue = [
     teacher: "JAL",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "VCT",
   },
 ];
@@ -74,11 +74,11 @@ const thu = [
     teacher: "FAS",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "VCT",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "VCT",
   },
   {
@@ -100,7 +100,7 @@ const fri = [
     teacher: "JAL",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "VCT",
   },
   {

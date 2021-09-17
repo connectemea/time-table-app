@@ -4,7 +4,7 @@ const mon = [
     teacher: "IRF",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
   {
@@ -16,7 +16,7 @@ const mon = [
     teacher: "JAL",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
 ];
@@ -38,7 +38,7 @@ const tue = [
     teacher: "ROY",
   },
   {
-    sub: "POLI",
+    sub: "POLITICS",
     teacher: "",
   },
 ];
