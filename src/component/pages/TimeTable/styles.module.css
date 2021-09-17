@@ -225,9 +225,14 @@
   transition: box-shadow 0.5s;
   cursor: pointer;
   text-decoration: none;
+  text-transform:uppercase;
 }
 .redirectBtn:hover {
   box-shadow: inset 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.homeBtn{
+  margin-left:25px;
+  letter-spacing:4px;
 }
 
 @media screen and (max-width: 1025px) {

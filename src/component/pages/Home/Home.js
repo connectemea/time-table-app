@@ -77,11 +77,13 @@ const Home = () => {
 
       <div className={styles.bottomTitle}>
         Crafted with&#128150;
+        <a href="https://www.instagram.com/tinkerhub.emea/">
         <img
           className={styles.brandName}
           src={BrandName}
           alt="TinkerHub EMEA"
         />
+        </a>
       </div>
     </div>
   );
