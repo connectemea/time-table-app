@@ -88,23 +88,23 @@ const thu = [
 ];
 const fri = [
   {
-    sub: "Maths",
+    sub: "S&T",
     teacher: "Vasheeda",
   },
   {
-    sub: "ENG",
+    sub: "DS",
     teacher: "",
   },
   {
-    sub: "ENG",
+    sub: "python",
     teacher: "",
   },
   {
-    sub: "STATI",
+    sub: "Maths",
     teacher: "V",
   },
   {
-    sub: "LANG",
+    sub: "stati",
     teacher: "",
   },
 ];
