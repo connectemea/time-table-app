@@ -108,5 +108,5 @@ const fri = [
     teacher: "R",
   },
 ];
-const week = [mon, tue, thu, wed, fri];
+const week = [mon, tue, wed, thu,  fri];
 export default week;

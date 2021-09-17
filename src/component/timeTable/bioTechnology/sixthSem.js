@@ -3,5 +3,5 @@ const tue = [];
 const wed = [];
 const thu = [];
 const fri = [];
-const week = [mon, tue, thu, wed, fri];
+const week = [mon, tue, wed, thu,  fri];
 export default week;
