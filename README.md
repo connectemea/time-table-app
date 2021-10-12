@@ -15,7 +15,7 @@ The ultimate aim of the web app is to bring all the classes in the college into 
 * Admin panel for teachers and Princpal.
 * Facility to make announcements for the entire college or for a batch specifically.
 
-#WebApp link
+# WebApp link
 
 [click here](https://emeatimetable.netlify.app/)
 
