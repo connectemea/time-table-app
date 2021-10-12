@@ -1,6 +1,6 @@
 # EMEA Time Table App
 
-This is a basiic web app developed by students of EMEA College which displays the time table of each and every department in EMEA College of Arts and Science, Kondotty. 
+This is a basic web app developed by students of EMEA College which displays the time table of each and every department in EMEA College of Arts and Science, Kondotty. 
 
 ## Procedure
 
@@ -14,6 +14,10 @@ The ultimate aim of the web app is to bring all the classes in the college into 
 * A portal where invite links of all the classes and seminars will be made available.
 * Admin panel for teachers and Princpal.
 * Facility to make announcements for the entire college or for a batch specifically.
+
+# WebApp link
+
+[click here](https://emeatimetable.netlify.app/)
 
 ### More updates will be rolling out soon, STAY TUNED..!
 
