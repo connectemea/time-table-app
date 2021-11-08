@@ -1,111 +1,111 @@
 const mon = [
   {
     sub: "Python",
-    teacher: "",
+    teacher: "HK",
   },
   {
     sub: "Maths",
-    teacher: "",
+    teacher: "SPD",
   },
   {
     sub: "S&T",
-    teacher: "",
+    teacher: "HK",
   },
   {
     sub: "DS",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "STATI",
-    teacher: "",
+    teacher: "RS",
   },
 ];
 const tue = [
   {
     sub: "Maths",
-    teacher: "",
+    teacher: "SPD",
   },
   {
     sub: "DS Lab",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "DS Lab",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "STATI",
-    teacher: "",
+    teacher: "RS",
   },
   {
     sub: "Python",
-    teacher: "",
+    teacher: "HK",
   },
 ];
 const wed = [
   {
     sub: "DS",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "STATI",
-    teacher: "",
+    teacher: "RS",
   },
   {
     sub: "Python",
-    teacher: "",
+    teacher: "HK",
   },
   {
     sub: "Maths",
-    teacher: "",
+    teacher: "SPD",
   },
   {
     sub: "S&T",
-    teacher: "",
+    teacher: "JSH",
   },
 ];
 const thu = [
   {
     sub: "STATI",
-    teacher: "",
+    teacher: "RS",
   },
   {
     sub: "DS Lab",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "DS Lab",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "Maths",
-    teacher: "",
+    teacher: "SPD",
   },
   {
     sub: "S&T",
-    teacher: "",
+    teacher: "HK",
   },
 ];
 const fri = [
   {
     sub: "S&T",
-    teacher: "Vasheeda",
+    teacher: "JSH",
   },
   {
     sub: "DS",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "python",
-    teacher: "",
+    teacher: "HK",
   },
   {
     sub: "Maths",
-    teacher: "V",
+    teacher: "SPD",
   },
   {
     sub: "stati",
-    teacher: "",
+    teacher: "RS",
   },
 ];
 const week = [mon, tue, wed, thu,  fri];
