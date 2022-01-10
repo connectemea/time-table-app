@@ -1,45 +1,45 @@
 const mon = [
   {
-    sub: "Maths",
-    teacher: "VSD"
+    sub: "MP",
+    teacher: "JK"
   },
   {
-    sub: "CS",
+    sub: "MATHS",
+    teacher: "SPD"
+  },
+  {
+    sub: "DC",
     teacher: "JSH"
-  },
-  {
-    sub: "Stati",
-    teacher: "RSK"
   },
   {
     sub: "DBMS",
     teacher: "HK"
   },
   {
-    sub: "BAV",
-    teacher: "JK"
+    sub: "STATI",
+    teacher: "RS"
   }
 ];
 const tue = [
   {
-    sub: "Maths",
-    teacher: "VSD"
+    sub: "MATHS",
+    teacher: "SPD"
   },
   {
-    sub: "DS(Lab)",
-    teacher: "JK"
+    sub: "RDBMS(Lab)",
+    teacher: "HK"
   },
   {
     sub: "RDBMS(Lab)",
     teacher: "HK",
   },
   {
-    sub: "CS",
-    teacher: "JSH",
+    sub: "STATI",
+    teacher: "RS",
   },
   {
-    sub: "Stati",
-    teacher: "RSK",
+    sub: "DC",
+    teacher: "JSH",
   },
 ];
 const wed = [
@@ -48,42 +48,42 @@ const wed = [
     teacher: "HK",
   },
   {
-    sub: "Maths",
-    teacher: "VSD",
+    sub: "STATI",
+    teacher: "rs",
   },
   {
-    sub: "CS",
+    sub: "dc",
     teacher: "JSH",
   },
   {
     sub: "Maths",
-    teacher: "VSD",
+    teacher: "SPD",
   },
   {
-    sub: "BAV",
+    sub: "MP",
     teacher: "JK",
   },
 ];
 const thu = [
   {
     sub: "Stati",
-    teacher: "",
-  },
-  {
-    sub: "DS(Lab)",
-    teacher: "JK",
+    teacher: "RS",
   },
   {
     sub: "RDBMS(Lab)",
     teacher: "HK",
   },
   {
-    sub: "Bav",
+    sub: "RDBMS(Lab)",
+    teacher: "HK",
+  },
+  {
+    sub: "MP",
     teacher: "JK",
   },
   {
-    sub: "Bav",
-    teacher: "JK",
+    sub: "MATHS",
+    teacher: "SPD",
   },
 ];
 const fri = [
@@ -92,20 +92,20 @@ const fri = [
     teacher: "HK",
   },
   {
-    sub: "CS",
+    sub: "DC",
     teacher: "JSH",
   },
   {
-    sub: "Maths",
-    teacher: "VSD",
+    sub: "MP",
+    teacher: "JK",
+  },
+  {
+    sub: "MATHS",
+    teacher: "SPD",
   },
   {
     sub: "Stati",
-    teacher: "",
-  },
-  {
-    sub: "Stati",
-    teacher: "",
+    teacher: "RS",
   },
 ];
 const week = [mon, tue, wed, thu,  fri];
