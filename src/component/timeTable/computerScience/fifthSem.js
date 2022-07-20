@@ -1,11 +1,11 @@
 const mon = [
   {
     sub: "PHP",
-    teacher: "",
+    teacher: "AMR",
   },
   {
     sub: "CO",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "OC",
@@ -13,21 +13,21 @@ const mon = [
   },
   {
     sub: "PHP Lab",
-    teacher: "",
+    teacher: "AMR",
   },
   {
     sub: "PHP Lab",
-    teacher: "",
+    teacher: "AMR",
   },
 ];
 const tue = [
   {
     sub: "PHP",
-    teacher: "",
+    teacher: "AMR",
   },
   {
     sub: "SE",
-    teacher: "",
+    teacher: "HK",
   },
   {
     sub: "OC",
@@ -35,21 +35,21 @@ const tue = [
   },
   {
     sub: "CO",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "Java Lab",
-    teacher: "",
+    teacher: "JSH",
   },
 ];
 const wed = [
   {
     sub: "PHP",
-    teacher: "",
+    teacher: "AMR",
   },
   {
     sub: "Java",
-    teacher: "",
+    teacher: "JSH",
   },
   {
     sub: "OC",
@@ -57,55 +57,55 @@ const wed = [
   },
   {
     sub: "PHP Lab",
-    teacher: "",
+    teacher: "AMR",
   },
   {
     sub: "SE",
-    teacher: "",
+    teacher: "HK",
   },
 ];
 const thu = [
   {
     sub: "CO",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "SE",
-    teacher: "",
+    teacher: "HK",
   },
   {
     sub: "Java",
-    teacher: "",
+    teacher: "JSH",
   },
   {
     sub: "Java Lab",
-    teacher: "",
+    teacher: "JSH",
   },
   {
     sub: "Java Lab",
-    teacher: "",
+    teacher: "JSH",
   },
 ];
 const fri = [
   {
     sub: "SE",
-    teacher: "",
+    teacher: "HK",
   },
   {
     sub: "Java",
-    teacher: "",
+    teacher: "JSH",
   },
   {
     sub: "CO",
-    teacher: "",
+    teacher: "JK",
   },
   {
     sub: "Project Lab",
-    teacher: "",
+    teacher: "JSH",
   },
   {
     sub: "Project Lab",
-    teacher: "",
+    teacher: "HK",
   },
 ];
 const week = [mon, tue, wed, thu,  fri];
