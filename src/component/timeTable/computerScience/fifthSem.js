@@ -39,7 +39,7 @@ const tue = [
   },
   {
     sub: "Java Lab",
-    teacher: "JSH",
+    teacher: "AS",
   },
 ];
 const wed = [
@@ -49,7 +49,7 @@ const wed = [
   },
   {
     sub: "Java",
-    teacher: "JSH",
+    teacher: "AS",
   },
   {
     sub: "OC",
@@ -75,15 +75,15 @@ const thu = [
   },
   {
     sub: "Java",
-    teacher: "JSH",
+    teacher: "AS",
   },
   {
     sub: "Java Lab",
-    teacher: "JSH",
+    teacher: "AS",
   },
   {
     sub: "Java Lab",
-    teacher: "JSH",
+    teacher: "AS",
   },
 ];
 const fri = [
@@ -93,7 +93,7 @@ const fri = [
   },
   {
     sub: "Java",
-    teacher: "JSH",
+    teacher: "AS",
   },
   {
     sub: "CO",
@@ -101,7 +101,7 @@ const fri = [
   },
   {
     sub: "Project Lab",
-    teacher: "JSH",
+    teacher: "AS",
   },
   {
     sub: "Project Lab",
