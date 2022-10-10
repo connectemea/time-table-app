@@ -27,19 +27,19 @@ const tue = [
   },
   {
     sub: "SE",
-    teacher: "",
+    teacher: "HK",
   },
   {
     sub: "OC",
     teacher: "",
   },
   {
-    sub: "CO",
-    teacher: "",
+    sub: "Java Lab",
+    teacher: "AS",
   },
   {
     sub: "Java Lab",
-    teacher: "",
+    teacher: "AS",
   },
 ];
 const wed = [
@@ -56,7 +56,7 @@ const wed = [
     teacher: "",
   },
   {
-    sub: "PHP Lab",
+    sub: "CO",
     teacher: "",
   },
   {
