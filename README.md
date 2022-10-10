@@ -2,7 +2,7 @@
 
 This is a basiic web app developed by students of EMEA College which displays the time table of each and every department in EMEA College of Arts and Science, Kondotty.
 
-# ScreenShot
+# Screenshot
 
 <img src="./resources/banner1.png" width="80%" height="60%" alt="Banner"><br>
 <img src="./resources/banner2.png" width="80%" height="60%" alt="Banner"><br>
